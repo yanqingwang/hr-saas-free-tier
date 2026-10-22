@@ -1,0 +1,14 @@
+# HR SaaS 免费版数据表：每条 vendor 一个 YAML 条目
+# ============================ 字段说明 ============================
+# id / name / website / pricing_url      厂商与链接
+# region / category                      地区与产品类别
+# free_plan                              有没有免费版/免费试用/免费模块（一句话）
+# free_limits                            免费人数/模块/时长
+# restrictions                           限制条件
+# upgrade_trigger                        何时需要升级（超人数/需模块/API等）
+# min_paid_pkg                           最小付费包（价格 + 内容）
+# verified / confidence                  核查日期 ｜ high/medium/low
+# official_sources / third_party_sources 官方与第三方证据 URL（每周探活）
+# ================================================================
+
+vendors: []
