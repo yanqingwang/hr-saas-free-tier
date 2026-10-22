@@ -1,0 +1,26 @@
+name: 📮 订阅 / 退订邮件
+description: 输入邮箱，每周一自动收《HR SaaS 免费版周报》
+labels: ["subscribe"]
+body:
+  - type: dropdown
+    id: action
+    attributes:
+      label: 动作 / Action
+      options:
+        - 订阅 / Subscribe
+        - 退订 / Unsubscribe
+    validations:
+      required: true
+  - type: input
+    id: email
+    attributes:
+      label: 邮箱 / Email
+      placeholder: you@example.com
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        🔒 **隐私说明**：邮箱以 AES-256 加密入库（`data/subscribers.enc`），维护者也无法读出明文；
+        机器人会在处理后的几十秒内自动**脱敏本 issue 标题与正文**，公开页不长期保留明文；
+        无后台服务器，不支持二次点击确认——退订随时用本表单切换「动作」即可。

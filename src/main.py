@@ -55,6 +55,19 @@ def main() -> None:
             mailer.send(f"HR SaaS 免费版周报 {dt.date.today().isoformat()}", body,
                         str(rep_dir / "weekly.md"))
             print("邮件已发送（库主）", file=sys.stderr)
+            # 订阅者：密文名单，逐个发送，失败隔离；日志不落明文邮箱
+            try:
+                from src import subscribers
+                subs = subscribers.sendable()
+            except SystemExit:
+                subs = []
+            for idx, (email, freq) in enumerate(subs, 1):
+                try:
+                    mailer.send(f"HR SaaS 免费版周报 {dt.date.today().isoformat()}", body,
+                                str(rep_dir / "weekly.md"), to=email)
+                    print(f"邮件已发送（订阅者 #{idx}）", file=sys.stderr)
+                except Exception as exc:
+                    print(f"订阅者 #{idx} 发送失败: {type(exc).__name__}", file=sys.stderr)
         except Exception as exc:
             print(f"邮件跳过: {type(exc).__name__}", file=sys.stderr)
 
