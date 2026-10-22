@@ -911,3 +911,575 @@ vendors:
   - https://www.business.com/reviews/zenefits-hr-software/
   - https://xecutethevision.com/blog/f/zenefits-pricing-2026-what-happened-and-what-to-use-instead
   notes: 2022 年被 TriNet 收购，2025-01 起独立 Zenefits HRIS 停售
+- id: talenox
+  name: Talenox（新加坡）
+  website: https://www.talenox.com.sg
+  pricing_url: https://www.talenox.com.sg/pricing/
+  region: 东南亚-新加坡
+  category: 薪酬（Payroll/Leave 模块化）
+  deployment: SaaS 云（网页/App）
+  modules: Profiles 员工档案/Payroll 薪酬/Leave 请假/Claims 报销（SUITE 含全部）
+  free_plan: 免费版已停用（2026-01-05 起）；新用户 30 天 SUITE 全功能免费试用
+  free_limits: 30天试用含薪酬/请假/报销全功能；试用结束后转只读模式再给 30 天数据导出期
+  restrictions: 无永久免费层；旧免费版账户 2026-03-31（新马）转只读，60 天内不升级则数据删除
+  upgrade_trigger: 试用结束须选 PAYROLL/LEAVE/SUITE 付费计划，否则只读 60 天后账户被删除
+  min_paid_pkg: SUITE 年付含 GST S$7.63/人/月（首 5 人 S$38.15/月）；单模块 S$4.36/人/月
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.talenox.com.sg/pricing/
+  - https://www.talenox.com/blog/important-talenox-pricing-changes-starting-today-january-5-2026/
+  third_party_sources:
+  - https://www.wlp.com.sg/streamline-your-payroll-with-talenox-a-smart-choice-for-singapore-smes/
+  - https://www.fyadvisers.com/software/hr-payroll-software/talenox
+  notes: 1 SGD≈5.3 CNY；免费版 2026-01-05 官宣停用，仅剩 30 天试用+只读过渡
+- id: kakitangan
+  name: Kakitangan.com（马来西亚）
+  website: https://kakitangan.com
+  pricing_url: https://kakitangan.com/pricing
+  region: 东南亚-马来西亚
+  category: 一体化
+  deployment: SaaS 云（网页/App）
+  modules: E Payroll 薪酬/E Leave 请假/E Claim 报销/E Attendance 考勤/HR Premium/HR Sifu 支持
+  free_plan: 免费 E3 计划：≤3 名员工的 Payroll/Leave/Claim 三模块 RM0/月（永久）
+  free_limits: ≤3 名员工免费使用薪酬、请假、报销三模块，含法定缴款（EPF/SOCSO/PCB）自动计算与员工自助
+  restrictions: 免费版限 3 名员工；考勤、HR Premium、Sifu 支持等模块需付费
+  upgrade_trigger: 超过 3 名员工，或需考勤/HR Premium 等模块时升级（按模块+人数计价）
+  min_paid_pkg: 官方滑杆计价未公示统一价目；第三方口径 E Payroll RM50/月(≤4人)、E Leave RM50/月、E Claim RM20/月
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://kakitangan.com/pricing
+  - https://blog.kakitangan.com/free-hr-software-for-businesses-payroll-leave-more/
+  third_party_sources:
+  - https://softwarefinder.com/hr/kakitangan
+  - https://beamstart.com/deal/kakitangan-20-percent-off-annual-subscription
+  notes: 1 RM≈1.6 CNY；免费计划官方博客确认（≤3 名员工三模块）
+- id: payboy
+  name: Payboy（新加坡/马来西亚）
+  website: https://payboy.sg
+  pricing_url: https://payboy.sg/pricing/
+  region: 东南亚-新加坡
+  category: 一体化（薪酬/考勤为特色）
+  deployment: SaaS 云（网页/App）
+  modules: Payroll 薪酬(CPF/SDL/IR8A)/Leave 请假/Claims 报销/Shift Scheduling 排班/Attendance 考勤/ATS/Appraisal
+  free_plan: 无免费版，仅 7 天全模块免费试用
+  free_limits: 7天试用覆盖全部模块；需注册获取（demo 账户）
+  restrictions: 无永久免费层；按『人数×模块』Pay-per-use 计费，仅信用卡支付；仅支持新加坡合规
+  upgrade_trigger: 7天试用结束须在 Billing 页添加支付信息；每用到一个模块/一名员工即计费
+  min_paid_pkg: 官方为计价器未公示固定价；第三方口径薪酬模块约 S$3–3.5/人/月
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://payboy.sg/pricing/
+  - https://payboy.sg/signup/
+  third_party_sources:
+  - https://www.fyadvisers.com/software/hr-payroll-software/payboy/
+  - https://software-listing.com/tools/payboy
+  notes: 1 SGD≈5.3 CNY；PSG 补助最高 50%；无免费层，7 天试用偏短
+- id: justlogin
+  name: JustLogin（新加坡）
+  website: https://justlogin.com
+  pricing_url: https://justlogin.com/pricing-old
+  region: 东南亚-新加坡
+  category: 一体化
+  deployment: SaaS 云（网页/App）
+  modules: Payroll 薪酬(CPF/SDL/IRAS AIS)/Leave 请假/Attendance 考勤/Expense 报销/Recruitment 招聘/Appraisal 绩效
+  free_plan: 无免费版；30 天全功能免费试用（无需信用卡）
+  free_limits: 30天试用覆盖所选模块；按 5 名员工起计费
+  restrictions: 最低按 5 名员工计费；正式价格定制报价（报价制）
+  upgrade_trigger: 30天试用结束订阅；超过 100 名员工需定制报价
+  min_paid_pkg: 定制报价、最低 5 名员工（旧定价页曾示各模块 S$2.99/人/月，现状以报价为准）
+  verified: '2026-10-22'
+  confidence: medium
+  official_sources:
+  - https://justlogin.com/pricing-old
+  - https://justlogin.com/human-resource-software
+  third_party_sources:
+  - https://neuhr.com/blog/payroll-tools/
+  notes: 1 SGD≈5.3 CNY；IRAS AIS Category A 认证
+- id: staffany
+  name: StaffAny（新加坡）
+  website: https://www.staffany.com
+  pricing_url: https://www.staffany.com/pricing
+  region: 东南亚-新加坡
+  category: 考勤/排班（劳动力管理）
+  deployment: SaaS 云（App/网页）
+  modules: 排班 Scheduling/无接触打卡 Timeclock/工时表 Timesheets/请假 Leave/报表/Payroll 集成
+  free_plan: Start Up 计划免费：单门店、≤25 名员工（永久免费）
+  free_limits: 免费含基础排班、无接触打卡（GPS/QR/Web）、工时表管理与工资单生成、基础请假、基础报表、Payroll 集成、邮件支持
+  restrictions: 限单门店与 ≤25 名注册员工；多门店/无限员工、自动排班/数据分析需付费
+  upgrade_trigger: 超过 25 名员工、多门店经营，或需自动排班、高级报表/数据分析、API 时升级
+  min_paid_pkg: Growth 年付 SGD 89/门店/月（月付 119）；Scale 年付 99/门店/月
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.staffany.com/pricing
+  third_party_sources:
+  - https://dev.saasworthy.com/product/staffany
+  notes: 1 SGD≈5.3 CNY；官方定价页明确 Start Up 计划 Free；加购 PayrollAny S$6/人/月
+- id: payrollpanda
+  name: PayrollPanda（马来西亚）
+  website: https://www.payrollpanda.my
+  pricing_url: https://www.payrollpanda.my/upgrade-plans
+  region: 东南亚-马来西亚
+  category: 薪酬
+  deployment: SaaS 云（网页/App）
+  modules: 薪酬计算/法定缴款(EPF/SOCSO/EIS/PCB/HRDF)/工资单/Form E&EA/基础请假管理/员工自助
+  free_plan: 100% 免费永久、不限员工数（Free 计划）
+  free_limits: 无限员工、无限薪酬月、支付文件、工资单生成、Form E/EA 生成、法定自动计算、80+ 预设薪酬项、基础请假管理
+  restrictions: 免费版仅 1 名 payroll 管理员（1 owner）；无多用户、无限批量上传/报表导出、高级请假、集成与 API
+  upgrade_trigger: 需要多名管理员、批量上传/无限报表导出、高级请假管理、集成/API 时升级 Pro
+  min_paid_pkg: Pro 价格未公示（第三方 Capterra 称约 US$38/月 + US$8/员工/月）
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.payrollpanda.my/upgrade-plans
+  - https://www.payrollpanda.my/employee-management/
+  third_party_sources:
+  - https://www.capterra.com/p/156492/PayrollPanda
+  - https://blog.kakitangan.com/kakitangan-com-vs-payrollpanda-full-comparison/
+  notes: 1 MYR≈1.6 CNY；LHDN 认证；免费版对无限员工永久免费，是本次免费力度最大的薪酬产品
+- id: mekari-talenta
+  name: Mekari Talenta（印尼）
+  website: https://www.talenta.co
+  pricing_url: https://www.talenta.co/en/pricing-subscription
+  region: 东南亚-印尼
+  category: 一体化
+  deployment: SaaS 云（网页/App）
+  modules: 考勤(人脸/GPS)/薪酬 Payroll/HR 行政/招聘 ATS/绩效 Talent Development/Talenta AI
+  free_plan: 无免费版，仅 14 天免费试用（无合同、无需信用卡）
+  free_limits: 14天试用全功能（官方定价页）；无永久免费层
+  restrictions: 正式价格需联系销售/演示；Talenta 360 生态模块与 Add-on 另行计费
+  upgrade_trigger: 试用结束订阅；需绩效/招聘等 Talenta 360 模块时按 add-on 加购
+  min_paid_pkg: 未公示公开价格（联系销售）
+  verified: '2026-10-22'
+  confidence: medium
+  official_sources:
+  - https://www.talenta.co/en/pricing-subscription
+  - https://www.talenta.co/blog/begini-cara-memanfaatkan-layanan-coba-gratis-software-hris/
+  third_party_sources:
+  - https://www.capterra.com/p/241697/Talenta
+  notes: 1 IDR≈0.00045 CNY；Mekari 集团旗下；14 天试用为 2026 官方口径
+- id: ezyhr-th
+  name: EzyHR（泰国）
+  website: https://www.ezyhr.com
+  pricing_url: https://www.ezyhr.com
+  region: 东南亚-泰国
+  category: 一体化
+  deployment: SaaS 云（网页/App）
+  modules: 员工管理/薪酬/请假/考勤/报销（HR 全流程，免费包限 3 人）
+  free_plan: 免费包永久免费、≤3 名员工（无需信用卡）
+  free_limits: 免费包可管理最多 3 名员工；官方 FAQ 明确可永久免费使用
+  restrictions: 免费版不能自定义公司颜色/Logo；仅邮件支持
+  upgrade_trigger: 超过 3 名员工，或需自定义品牌、更完善支持时付费
+  min_paid_pkg: 未公示公开价格（需联系销售；有『付 10 个月送 2 个月』促销）
+  verified: '2026-10-22'
+  confidence: medium
+  official_sources:
+  - https://www.ezyhr.com
+  third_party_sources: []
+  notes: 1 THB≈0.20 CNY；泰国本土 HR SaaS（Orisma Technology），获 depa dSURE 与 ISO 27001 认证
+- id: freee-hr
+  name: freee人事労務（日本）
+  website: https://www.freee.co.jp/hr/
+  pricing_url: https://www.freee.co.jp/hr/pricing/
+  region: 日本
+  category: 一体化（人事労務/給与/勤怠）
+  deployment: SaaS 云（网页/App）
+  modules: 給与計算/労務管理(年末調整・入退社・社保電子申請)/勤怠管理(スタンダード以上)/人事管理(アドバンス)
+  free_plan: 无永久免费版；30 天有料功能免费试用（初期费用 0）
+  free_limits: 30天试用含全部有料计划功能；注册后自动开始试用
+  restrictions: 全プラン最低 5 名起计费；6 名起按人加收（ミニマム 400円/人/月）
+  upgrade_trigger: 试用结束订阅；需勤怠打刻（スタンダード起）、人事管理（アドバンス）时升档
+  min_paid_pkg: ミニマム 年付 ¥2,000/月（5 人分，¥400/人/月）；スターター ¥3,000/月、スタンダード ¥4,000/月、アドバンス ¥5,500/月
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.freee.co.jp/hr/pricing/
+  - https://support.freee.co.jp/hc/ja/articles/203309710
+  third_party_sources:
+  - https://digi-mado.jp/article/117630
+  notes: 1 JPY≈0.047 CNY；免费试用 30 天为官方帮助中心确认；按給与確定人数计费
+- id: jobcan
+  name: ジョブカン Jobcan（日本，DONUTS）
+  website: https://jobcan.ne.jp
+  pricing_url: https://all.jobcan.ne.jp/plan
+  region: 日本
+  category: 考勤（勤怠）/薪酬（給与）/労務HR 多产品
+  deployment: SaaS 云（网页/App/打刻机）
+  modules: 勤怠管理(出勤/シフト/休暇申請/工数)/給与計算/労務HR/ワークフロー/経費精算
+  free_plan: 勤怠・給与・労務HR 均有无料プラン（0円/月，永久）
+  free_limits: 給与/労務HR 免费版限 5 名员工且功能受限（无 API 连携、年末調整不可、无聊天支持、数据保留 30 天）
+  restrictions: 免费版数据保障期 30 天、无年末調整/API/聊天支持；30 天全功能试用后自动转免费版
+  upgrade_trigger: 超过免费人数上限，或需年末調整、API 连携、聊天支持时升级
+  min_paid_pkg: 勤怠 200円/人/月起（月额最低 ¥2,000）；給与・労務HR 400円/人/月（月额最低 ¥2,000）
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://all.jobcan.ne.jp/plan
+  - https://payroll.jobcan.ne.jp/plan/
+  - https://lms.jobcan.ne.jp/plan/
+  third_party_sources:
+  - https://romsearch.officestation.jp/jinjiroumu/shugyoukisoku/25829
+  - https://www.pay-book.jp/blog/payrollsoftware-hikaku
+  notes: 1 JPY≈0.047 CNY；DONUTS 旗下系列累计 25 万+ 企业；无料プラン真实存在（5名/功能受限）
+- id: king-of-time
+  name: KING OF TIME（キングオブタイム，日本）
+  website: https://www.kingoftime.jp
+  pricing_url: https://www.kingoftime.jp/costlist/
+  region: 日本
+  category: 考勤（勤怠/人事給与）
+  deployment: SaaS 云（网页/App/打刻机）
+  modules: 勤怠管理/人事労務/給与計算/年末調整/データ分析/システムログ（一体ワンプライス）
+  free_plan: 无免费版；30 天全功能免费体验（无人数/功能限制）
+  free_limits: 30天试用覆盖全部功能与连携服务；初期费用 0、最低 1 名起
+  restrictions: 无永久免费层；打刻机等硬件需另购
+  upgrade_trigger: 30 天试用结束订阅；每名员工按月计费
+  min_paid_pkg: ¥330/人/月（税込；官方税抜 ¥300/人/月），初期费用 0、1 名起、无最低人数
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.kingoftime.jp/costlist/
+  - https://www.kingoftime.jp/costlist/cost/
+  third_party_sources:
+  - https://www.itreview.jp/products/kintaikanrishisutemu-king-of-time/price
+  - https://012cloud.jp/article/kingoftime-cost
+  notes: 1 JPY≈0.047 CNY；富士キメラ勤怠 SaaS 利用 ID 数 No.1；『無料5人』说法不成立，实为 30 天试用+¥330/人/月
+- id: smarthr
+  name: SmartHR（日本）
+  website: https://smarthr.jp
+  pricing_url: https://smarthr.jp/pricing/
+  region: 日本
+  category: 労務管理（人事労務）
+  deployment: SaaS 云（网页/App）
+  modules: 労務管理/人事評価/タレントマネジメント/従業員データベース/組織図/名簿/従業員情報申請
+  free_plan: ¥0プラン免费：≤30 名员工（劳務管理プラン相同功能）
+  free_limits: 30 名以内従業員情報登録、労務管理相当功能（組織図/名簿/従業員情報申請/データ連携/多言語化）
+  restrictions: ¥0プラン无聊天支持、无付费オプション（文書配付等）；15 天试用后选 ¥0 会限制部分功能
+  upgrade_trigger: 超过 30 名员工，或需文書配付、聊天支持、人事評価/タレントマネジメント等付费功能时
+  min_paid_pkg: 未公示公开价格（报价制、年払一括、初期费用 0）
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://smarthr.jp/pricing/
+  - https://smarthr.jp/about/faq/
+  third_party_sources:
+  - https://stacklogs.net/smarthr-pricing-plan
+  notes: 1 JPY≈0.047 CNY；労務管理クラウド 7 年連続シェア No.1；¥0プラン（≤30人）为官方明确免费层
+- id: moneyforward-payroll
+  name: マネーフォワードクラウド給与（日本）
+  website: https://biz.moneyforward.com/payroll/
+  pricing_url: https://biz.moneyforward.com/payroll/price
+  region: 日本
+  category: 薪酬（給与計算）
+  deployment: SaaS 云（网页/App）
+  modules: 給与・賞与計算/所得税・社会保険料計算/Web給与明細/銀行振込連携/API・CSV連携/年末調整
+  free_plan: 无独立免费版；1 个月ビジネスプラン相当免费试用
+  free_limits: 1个月免费试用（试用期間従量課金不计费）；初期费用 0
+  restrictions: 无永久免费层；給与 5 名以内含在ビジネスプラン基本料内，6 名起按 300円/人/月従量
+  upgrade_trigger: 试用结束订阅；确定处理员工超过 5 名时按 300円/人/月加收
+  min_paid_pkg: ひとり法人プラン 年付 ¥2,480/月（1 名）；スモールビジネス 年付 ¥4,480/月（3 名まで）；ビジネス 年付 ¥6,480/月（給与 5 名まで）
+  verified: '2026-10-22'
+  confidence: medium
+  official_sources:
+  - https://biz.moneyforward.com/payroll/price
+  - https://biz.moneyforward.com/support/payroll/faq/plan/fee.html
+  third_party_sources:
+  - https://romsearch.officestation.jp/jinjiroumu/tetsuzuki/30903
+  - https://digi-mado.jp/article/117630
+  notes: 1 JPY≈0.047 CNY；第三方曾列『無料プラン 5名』，官方现行无独立免费版，以官方为准
+- id: rakuraku-kintai
+  name: 楽楽勤怠（日本，ラクス）
+  website: https://www.rakus.co.jp/rakurakucloud/kintai/
+  pricing_url: https://www.rakus.co.jp/rakurakucloud/kintai/
+  region: 日本
+  category: 考勤（勤怠管理）
+  deployment: SaaS 云（网页/App/打刻机）
+  modules: 打刻管理/申請・承認/勤務時間集計/休暇管理/残業管理/工数管理/シフト管理/給与連携
+  free_plan: 无免费版；无料トライアル可相談（デモ確認可）
+  free_limits: 免费试用需商谈开通；无永久免费层
+  restrictions: 价格未公开（月額 ¥30,000～ 税抜，按用户数变动）；料金表需资料请求获取
+  upgrade_trigger: 使用即付费；按用户数规模报价
+  min_paid_pkg: 月額 ¥30,000～（税抜，含系统利用/数据备份/版本升级/支持费）
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.rakus.co.jp/rakurakucloud/kintai/faq/product_price/rakuraku-kintai-pricing.php
+  - https://www.rakus.co.jp/rakurakucloud/kintai/
+  third_party_sources:
+  - https://boxil.jp/service/6999
+  - https://www.itreview.jp/products/rakurakukintai/price
+  notes: 1 JPY≈0.047 CNY；ラクス旗下累计导入 10.8 万社；无免费版，30,000円/月起
+- id: hrworks
+  name: HR WORKS（德国）
+  website: https://www.hrworks.de/
+  pricing_url: https://www.hrworks.de/preise/
+  region: 欧洲-德国
+  category: 一体化
+  deployment: SaaS 云（网页/App）
+  modules: 个人档案管理/考勤工时/薪酬(与 DATEV/ADDISON 对接)/差旅报销/人才发展/招聘管理/HR Analytics
+  free_plan: 免费试用（第三方目录载有 Free Trial；官方主推免费报价与演示，未公示免费人数上限）
+  free_limits: 免费内容未公示；官方至少按 20 名用户计费
+  restrictions: 官方 FAQ：至少按 20 名用户计费；无免费长期层；价格需报价
+  upgrade_trigger: 试用/演示后正式使用即付费；按用户数按月计费
+  min_paid_pkg: 官方未公示；第三方载 €12.90/用户/月 + 基础费 €60 起，至少 20 用户计费
+  verified: '2026-10-22'
+  confidence: medium
+  official_sources:
+  - https://www.hrworks.de/preise/
+  third_party_sources:
+  - https://www.getapp.com/hr-employee-management-software/a/hrworks/
+  - https://www.metronhr.de/en/alternatives/hrworks
+  notes: 官方定价页不公开单价；免费试用与单价来自第三方
+- id: charlie-hr
+  name: CharlieHR（英国）
+  website: https://www.charliehr.com/
+  pricing_url: https://www.charliehr.com/pricing
+  region: 欧洲-英国
+  category: 一体化
+  deployment: SaaS 云（网页/App）
+  modules: 员工档案/入职 Onboarding/请假管理/绩效评估/敬业度调查/福利 Perks/文档与电子签；可选 Recruit/Grow
+  free_plan: 免费试用 7 天（无需信用卡）
+  free_limits: 试用覆盖 Charlie 核心 HR 全部功能；Grow 与 Recruit 加购模块不自动含在试用内
+  restrictions: 无永久免费版；按团队人数分档收费；价格不含 VAT（+20%）
+  upgrade_trigger: 7 天试用结束须订阅；需要招聘（Recruit 从 £55/月）或 HR 顾问（Grow 从 £200/月）时加购
+  min_paid_pkg: Charlie 核心 HR 从 £21/月（1-4 人档）；5-9 人 £47、15-29 人 £108、30-49 人 £185
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.charliehr.com/pricing
+  third_party_sources:
+  - https://softwarefinder.com/hr/charliehr
+  - https://www.g2.com/products/charliehr/pricing
+  notes: 官方定价页含完整人数分档表
+- id: breathe
+  name: Breathe HR（英国）
+  website: https://www.breathehr.com/en-gb/
+  pricing_url: https://www.breathehr.com/en-gb/hr-software/hr-software-prices
+  region: 欧洲-英国
+  category: 一体化
+  deployment: SaaS 云（网页/App）
+  modules: 假期与缺勤管理/仪表盘与报表/文档与政策管理/绩效管理；可选 Rota 排班/培训/招聘/费用/健康安全
+  free_plan: 免费试用 14 天（无需信用卡，试用含全部功能与加购模块）
+  free_limits: 试用期可体验核心 HR + 全部 add-on 模块；无永久免费版
+  restrictions: 按员工总数分档（非按用户计费）；加购模块试用后收费
+  upgrade_trigger: 14 天试用结束须订阅；需要排班/招聘/费用/培训等 add-on 时加购
+  min_paid_pkg: Micro 档 £24/月（1-10 员工全包）；Starter £44（11-20）、Regular £99（21-50）、Pro £175（51-100）
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.breathehr.com/en-gb/hr-software/hr-software-prices
+  third_party_sources:
+  - https://codash.co.uk/compare/breathe-hr-pricing
+  - https://www.expertsure.com/uk/hr-software/breathe-hr-review/
+  notes: 官方按『每企业月费』而非每用户计费，定价透明
+- id: brighthr
+  name: BrightHR（英国）
+  website: https://www.brighthr.com/
+  pricing_url: https://www.brighthr.com/pricing/
+  region: 欧洲-英国
+  category: 一体化（含健康安全/雇佣法服务）
+  deployment: SaaS 云（网页/App）
+  modules: 排班 Rota/打卡/缺勤病假/绩效/工时表/文档存储/招聘/薪酬导航/福利平台/健康安全与雇佣法顾问
+  free_plan: 无永久免费版；仅免费演示 + 免费 Rota Lite 排班工具与免费事故追踪工具
+  free_limits: 官方 FAQ：可免费试用 Rota Lite（免费员工排班）、incident tracking 工具；完整 HR 软件无免费层
+  restrictions: 固定期合约（24/36/60 个月）；按员工数固定价；套餐分 Core/Enhanced/Full
+  upgrade_trigger: 需要完整 HR 软件（排班/缺勤/绩效等）即购买
+  min_paid_pkg: Core HR 软件 £16.67/员工/月（官方 5 员工示例 £83.35/月，36 个月合约）；FAQ 载价格从 £3.00/人
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.brighthr.com/pricing/
+  - https://www.brighthr.com/hr-software/free-employee-scheduling/
+  third_party_sources:
+  - https://softwarefinder.com/hr/brighthr
+  - https://www.timetally.uk/vs-brighthr
+  notes: 官方线上单价 £16.67/员工/月为 5 员工示例；FAQ 另有『从 £3/人』口径
+- id: staff-squared
+  name: Staff Squared（英国）
+  website: https://staffsquared.com/
+  pricing_url: https://staffsquared.com/pricing/
+  region: 欧洲-英国
+  category: 一体化
+  deployment: SaaS 云（网页/App）
+  modules: NOW 版：缺勤假期/入职/员工档案/文档/Pulse eNPS/报表/移动 App；HR 版加考勤/招聘 ATS/绩效/费用
+  free_plan: 免费试用 15 天（官方定价页；无需信用卡）
+  free_limits: 试用含全部功能（NOW/HR 两版），不收费；无永久免费版
+  restrictions: 无永久免费层；NOW £2.50/用户/月、HR £3.50/用户/月；年付 8 折；费用不含 VAT
+  upgrade_trigger: 15 天试用结束须订阅；需要考勤/招聘/绩效（HR 版）时升级
+  min_paid_pkg: NOW 从 £25/月、HR 从 £35/月（年付省 20%）
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://staffsquared.com/pricing/
+  third_party_sources:
+  - https://www.homerun.co/news/homerun-launches-full-hr-platform-after-merging-with-staff-squared
+  notes: 2024 年起与招聘平台 Homerun 合并，品牌延续
+- id: hollyhr
+  name: HollyHR（英国）
+  website: https://www.hollyhr.com/
+  pricing_url: https://www.hollyhr.com/pricing
+  region: 欧洲-英国
+  category: 一体化
+  deployment: SaaS 云（网页；API/MCP 与 Webhook）
+  modules: 员工档案/请假与病假/Who's away 共享日历/文档与入职/培训与设备记录/报表与导入导出/API 读取
+  free_plan: 免费版：最多 10 名在职员工永久免费（无需信用卡、无销售电话、无试用倒计时）
+  free_limits: Free 含日常 HR 全功能：员工档案、请假/病假、入职、文档、培训/设备/福利记录、报表、导入导出、API/MCP 读取
+  restrictions: 限 10 名 active 员工；Standard 以上才有自定义域名、API/MCP 写入、优先支持
+  upgrade_trigger: 第 11 名在职员工起升级 Standard
+  min_paid_pkg: Standard £2/在职员工/月（或年付 £20/员工/年）；Plus（即将上线）£4/员工/月
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.hollyhr.com/pricing
+  - https://www.hollyhr.com/hr-software/10-employees
+  third_party_sources: []
+  notes: 真正『无试用倒计时』的免费档（≤10 人）
+- id: buzzhr
+  name: Buzz HR（英国）
+  website: https://www.buzzhr.co.uk/
+  pricing_url: https://www.buzzhr.co.uk/pricing
+  region: 欧洲-英国
+  category: 一体化
+  deployment: SaaS 云（网页；移动 App 即将上线）
+  modules: Free：数字员工档案/无限文档存储/缺勤追踪/报表/薪酬就绪导出/员工自助；Growth 加 AI 顾问/招聘 ATS/入职离职/工时表/费用/绩效
+  free_plan: 免费版 Free Forever：最多 10 用户永久免费（£0/月）
+  free_limits: Free 含数字员工档案、无限文档存储、缺勤追踪、报表、薪酬就绪导出、员工自助、邮件支持
+  restrictions: 限 10 用户；Growth/Enterprise 才有招聘/绩效/工时/费用/API/SSO 等；价格不含 VAT
+  upgrade_trigger: 超过 10 用户，或需要招聘/绩效/工时/费用/AI 顾问等模块时升级 Growth
+  min_paid_pkg: Growth £2/用户/月（月付，不限用户数）；Enterprise 定制
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.buzzhr.co.uk/pricing
+  third_party_sources: []
+  notes: 官方自称 FREE Forever（≤10 用户）且可随时取消、无长期合约
+- id: sesame-hr
+  name: Sesame HR（西班牙）
+  website: https://www.sesamehr.com/
+  pricing_url: https://www.sesamehr.com/pricing/
+  region: 欧洲-西班牙
+  category: 一体化（考勤/排班为特色）
+  deployment: SaaS 云（网页/App）
+  modules: 考勤打卡/休假与假日/排班/任务/招聘/内部沟通/绩效/文化敬业度/薪酬 Payroll/文档与电子签
+  free_plan: 免费试用 14 天（官方 FAQ）；无永久免费版
+  free_limits: 试用覆盖所选套餐与全部模块；无免费人数档
+  restrictions: 按在职员工计费，最低 15 员工（官方 FAQ）；无永久免费层
+  upgrade_trigger: 14 天试用结束订阅；需要绩效/招聘/SSO/API 时升级
+  min_paid_pkg: 官方（美元）：Essential $3.75/员工/月（年付）或 $5.25 月付；Growth $6.25、Scale $7.00
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.sesamehr.com/pricing/
+  third_party_sources:
+  - https://lapsowork.com/en/blog/how-much-does-hr-software-cost-for-smes/
+  - https://www.softwareadvice.com/product/119818-SesameHR/
+  notes: 『Sesame HR 免费档』经核实为否——官方仅 14 天试用，无永久免费版；最低 15 员工计费
+- id: kenjo
+  name: Kenjo（德国/西班牙）
+  website: https://www.kenjo.io/
+  pricing_url: https://www.kenjo.io/pricing
+  region: 欧洲
+  category: 一体化（劳动力管理）
+  deployment: SaaS 云（网页/App；Kiosk App）
+  modules: 排班 Shift Planning/缺勤管理/考勤/员工档案/文档 SmartDocs/入职离职/报告/电子签；加购招聘 ATS
+  free_plan: 免费试用 14 天（官方定价页与免费试用页明确标注）
+  free_limits: 试用覆盖所选套餐（Starter/Growth/Connect）；无永久免费版
+  restrictions: 价格经官方计算器/销售给出；一次性 onboarding 实施费
+  upgrade_trigger: 14 天试用结束订阅；需要招聘 ATS、培训追踪、API 时升级
+  min_paid_pkg: 官方未公示（价格计算器按人数/套餐出价）；第三方 G2 载 3 档从 €5.40/用户/月起
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.kenjo.io/pricing
+  - https://www.kenjo.io/free-trial-kenjo-hr-software
+  third_party_sources:
+  - https://www.g2.com/products/kenjo/pricing
+  notes: 官方定价页『0.0€』为 JS 计算器占位，非免费
+- id: peopleforce
+  name: PeopleForce（乌克兰）
+  website: https://peopleforce.io/
+  pricing_url: https://peopleforce.io/pricing
+  region: 欧洲-东欧
+  category: 一体化（模块化）
+  deployment: SaaS 云（网页/App）
+  modules: Core HR（档案/组织图/请假/入职离职/文档/报表）、Recruit(ATS)、Perform(OKR/KPI/360)、Pulse(调查)、Time(考勤)、Desk(工单)
+  free_plan: 无永久免费版；免费试用 14 天（demo 后开通，无需信用卡）
+  free_limits: 试用可探索全部功能或指定产品，无限制、无信用卡；试用结束后数据保留待升级取回
+  restrictions: 无免费人数档；Core HR 计费从 50 员工起算
+  upgrade_trigger: 14 天试用结束升级付费；需要 ATS/绩效/工时/调查/工单时按需加购
+  min_paid_pkg: Core HR Standard $2.5/员工/月（50 员工起计费，1-50 员工为 $125/月）；Professional $3/员工/月；年付 -20%
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://peopleforce.io/pricing
+  - https://peopleforce.io/trial-terms
+  third_party_sources:
+  - https://softwarefinder.com/hr/peopleforce
+  notes: 『免费10用户』未获官方证实，如实记录无免费版
+- id: payfit
+  name: PayFit（法国）
+  website: https://payfit.com/
+  pricing_url: https://payfit.com/pricing/
+  region: 欧洲-法国
+  category: 薪酬（薪酬+HR 一体化）
+  deployment: SaaS 云（网页/App）
+  modules: 薪酬代发（UK RTI/HMRC 合规）/员工档案 HR/请假缺勤/费用管理/绩效/合同与电子签/集成/Payfit AI
+  free_plan: 无永久免费版；新客户首月免费促销（官方横幅，2026-10-31 截止）
+  free_limits: 首月免费覆盖所选套餐；官方定价经 demo/报价，无自助免费试用档
+  restrictions: 按员工数 + 月基础费计费；费用/绩效等为可选模块；首月免费促销限新客户
+  upgrade_trigger: 首月免费结束即付费订阅；需要费用/绩效模块时加购
+  min_paid_pkg: 官方未公示（demo/报价制）；第三方口径 UK Core 约 £6/员工/月 + 月基础费；法国站点 Starter €26/员工/月
+  verified: '2026-10-22'
+  confidence: medium
+  official_sources:
+  - https://payfit.com/pricing/
+  - https://payfit.com/
+  third_party_sources:
+  - https://saasrat.com/products/payfit
+  - https://www.payrollprices.com/en/payfit/
+  notes: 官方首页横幅确认『首月免费』（至 2026-10-31）
+- id: lucca
+  name: Lucca（法国）
+  website: https://www.lucca-software.com/
+  pricing_url: https://www.lucca-software.com/
+  region: 欧洲-法国
+  category: 一体化（模块化套件）
+  deployment: SaaS 云（网页/App，iOS/Android）
+  modules: Core HR 档案/请假缺勤 Absences/工时 Timesheet/办公室预订/绩效/敬业度/培训/招聘 ATS/在线工资单/薪酬/报销 Expenses/Lucca AI
+  free_plan: 无免费版；无自助免费试用（官方 demo 制）
+  free_limits: 官方无免费层与免费试用说明；需预约 demo/销售开通
+  restrictions: 模块化按需选购（每模块公开单价）；无最低承诺期
+  upgrade_trigger: 需要任一模块（请假/工时/档案等）即付费；加购更多模块或 Lucca AI 时扩展
+  min_paid_pkg: 官方未公示统一价格（按模块报价）；第三方载 Absences 等模块约 €0.70/用户/月起
+  verified: '2026-10-22'
+  confidence: medium
+  official_sources:
+  - https://www.lucca-software.com/
+  - https://www.lucca-software.com/leave-and-absences
+  third_party_sources:
+  - https://www.softwareadvice.com/hr/lucca-profile/
+  - https://www.spotsaas.com/product/lucca/pricing
+  notes: Spotsaas 明确『Lucca 无免费试用与免费计划』
+- id: recruitee
+  name: Tellent Recruitee（荷兰）
+  website: https://recruitee.com/
+  pricing_url: https://recruitee.com/pricing
+  region: 欧洲-荷兰
+  category: 招聘（ATS）
+  deployment: SaaS 云（网页/App，iOS/Android）
+  modules: ATS 招聘管道/职业页 CareersHub/多平台发布/候选人管理与协作/评估/面试安排/Offer 与电子签/入职 Journeys/AI 筛选/报表与集成
+  free_plan: 无永久免费版；自助免费试用（官方 sign-up 入口，无需信用卡）
+  free_limits: 试用覆盖所选套餐（Start/Advance/Optimize）；官方未公示试用天数与免费人数
+  restrictions: 官方 FAQ：合约最低承诺 1 年（可按月支付）；价格按套餐+公司规模+计费周期
+  upgrade_trigger: 试用结束订阅；需要无限职位（Advance）、SSO/BI/API 支持（Optimize）时升级
+  min_paid_pkg: 官方未公示；第三方 TrustRadius 载从约 $109/月起（Scale 档 $333/月、10 职位槽）
+  verified: '2026-10-22'
+  confidence: medium
+  official_sources:
+  - https://recruitee.com/pricing
+  third_party_sources:
+  - https://www.trustradius.com/products/recruitee/pricing
+  - https://100hires.com/recruitee-pricing.html
+  notes: 官方页面确认自助免费试用入口与 1 年最低合约；Start 档含 5 个在招职位

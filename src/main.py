@@ -29,13 +29,8 @@ def main() -> None:
     args = ap.parse_args()
 
     vendors = load_vendors()
-    probe_map = {}
-    for v in vendors:
-        try:
-            probe_map[v["id"]] = probe.probe_vendor(v)
-            print(f"[{v['id']}] {v['name']} probed", file=sys.stderr)
-        except Exception as exc:
-            print(f"[{v['id']}] probe error: {exc}", file=sys.stderr)
+    probe_map = probe.probe_all(vendors)
+    print(f"probed {len(vendors)} vendors", file=sys.stderr)
 
     # 周报
     rep_dir = REPO_ROOT / "reports"
