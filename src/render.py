@@ -9,13 +9,15 @@ def _d(x) -> str:
 def table(vendors: list[dict], probe_map: dict) -> str:
     """免费版总表（用户口径：免费版 / 免费情况 / 限制条件 / 何时需升级 / 最小付费包）。"""
     rows = [
-        "| # | 公司 | 免费版 | 免费情况 | 限制条件 | 何时需升级 | 最小付费包 | 官方验证 | 第三方验证 |",
-        "|---|---|---|---|---|---|---|---|---|",
+        "| # | 公司 | 部署方式 | 模块说明 | 免费版 | 免费情况 | 限制条件 | 何时需升级 | 最小付费包 | 官方验证 | 第三方验证 |",
+        "|---|---|---|---|---|---|---|---|---|---|---|",
     ]
     for i, v in enumerate(vendors, 1):
         conf = v.get("confidence") or "medium"
         badge = {"high": "", "medium": " <sub>☑️</sub>", "low": " <sub>⚠️</sub>"}.get(conf, " <sub>☑️</sub>")
         name = f"[{_d(v['name'])}]({_d(v['website'])}){badge}"
+        deploy = v.get("deployment") or "—"
+        modules = v.get("modules") or "—"
         free = v.get("free_plan") or "—"
         free_limits = v.get("free_limits") or "—"
         restrict = v.get("restrictions") or "—"
@@ -31,7 +33,7 @@ def table(vendors: list[dict], probe_map: dict) -> str:
         off_txt = "<br>".join(off) if off else "—"
         third_txt = "<br>".join(third) if third else "—"
         rows.append(
-            f"| {i} | {name} | {free} | {free_limits} | {restrict} | {trigger} | {minpkg} "
+            f"| {i} | {name} | {deploy} | {modules} | {free} | {free_limits} | {restrict} | {trigger} | {minpkg} "
             f"| {off_txt} | {third_txt} |"
         )
     return "\n".join(rows)

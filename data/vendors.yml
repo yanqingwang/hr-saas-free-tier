@@ -2,6 +2,7 @@
 # ============================ 字段说明 ============================
 # id / name / website / pricing_url      厂商与链接
 # region / category                      地区与产品类别
+# deployment / modules                   部署方式（SaaS云/可自托管/私有化）与模块说明
 # free_plan                              有没有免费版/免费试用/免费模块（一句话）
 # free_limits                            免费人数/模块/时长
 # restrictions                           限制条件
@@ -12,187 +13,562 @@
 # ================================================================
 
 vendors:
-  - id: 2haohr
-    name: 2号人事部（点米科技）
-    website: https://www.2haohr.com
-    pricing_url: https://www.2haohr.com/purchase
-    region: "中国大陆"
-    category: 一体化
-    free_plan: "免费体验/限时免费使用（历史曾提供个人版免费，现主推付费企业版）"
-    free_limits: "未公示免费人数上限；官网提供限时免费使用（试用）"
-    restrictions: "完整功能（招聘/绩效/培训等）主要面向企业版付费客户；试用有时限"
-    upgrade_trigger: "免费体验到期，或需用企业版全模块（招聘、绩效、培训、薪酬等）时升级"
-    min_paid_pkg: "企业版 ¥128/人/年（一体化全模块+专业顾问指导）；集团版 ¥32400/年起"
-    verified: 2026-10-22
-    confidence: high
-    official_sources:
-      - https://www.2haohr.com/purchase
-    third_party_sources:
-      - https://www.jiemian.com/article/2221800.html
-    notes: "面向中小微企业的一体化HR SaaS；官网以免费体验/限时免费使用为主，未公示永久免费版"
-
-  - id: xinrenxinshi
-    name: 薪人薪事（企家有道）
-    website: https://www.xinrenxinshi.com
-    pricing_url: https://www.xinrenxinshi.com/version
-    region: "中国大陆"
-    category: 一体化（薪酬/考勤为特色）
-    free_plan: "免费注册试用"
-    free_limits: "免费试用；官网未公示免费人数与时长，需预约演示开通"
-    restrictions: "正式套餐按模块/人数报价，价格需销售咨询；高级模块（智能算薪、电子合同、招聘等）需付费开通"
-    upgrade_trigger: "试用期结束后，或需开通集团管理/复杂算薪/招聘等付费模块时升级"
-    min_paid_pkg: "官方未公示公开价格；金蝶精斗云渠道「薪人薪事小微企业版」¥3600/年起"
-    verified: 2026-10-22
-    confidence: medium
-    official_sources:
-      - https://www.xinrenxinshi.com/version
-    third_party_sources:
-      - https://m.jdy.com/xrxs
-    notes: "官网无公开价格表，定价走销售咨询；渠道起价参考金蝶精斗云小微企业版 ¥3600/年起"
-
-  - id: ihrshi
-    name: i人事（利唐）
-    website: https://www.irenshi.cn
-    pricing_url: https://www.irenshi.cn/article/33789.html
-    region: "中国大陆"
-    category: 一体化
-    free_plan: "免费试用（官方称14天全功能免费）"
-    free_limits: "试用期可导入100人以内人员数据；第三方称有50人以下免费版（未经官方公示）"
-    restrictions: "试用结束后需购买标准版/专业版；招聘、薪酬核算、绩效等模块按版本区分"
-    upgrade_trigger: "试用到期，或需招聘/薪酬/绩效等进阶模块、集团化管控时升级"
-    min_paid_pkg: "官方文章口径：标准版年费3万元起、专业版8万元起（另有官方文章称基础版98元/人/年起，口径不一）"
-    verified: 2026-10-22
-    confidence: medium
-    official_sources:
-      - https://www.irenshi.cn/article/33789.html
-    third_party_sources:
-      - https://www.iyunbiao.com/info/17319.html
-    notes: "官方主打中大型，提供14天全功能免费试用；免费人数上限未官方公示"
-
-  - id: woqu
-    name: 喔趣科技
-    website: https://www.woqu365.com
-    pricing_url: https://kq.woqu365.com/login/index.htm
-    region: "中国大陆"
-    category: 考勤/排班（劳动力管理）
-    free_plan: "免费基础版（免费30人使用）"
-    free_limits: "免费30人使用：基础版人员信息管理、考勤管理、在线排班"
-    restrictions: "免费版限30人；薪酬计算、绩效、人效分析等高级模块与更大规模需付费"
-    upgrade_trigger: "超过30人，或需智能排班/薪酬核算/绩效等付费模块时升级"
-    min_paid_pkg: "未公示公开价格，需联系销售报价"
-    verified: 2026-10-22
-    confidence: high
-    official_sources:
-      - https://kq.woqu365.com/login/index.htm
-    third_party_sources: []
-    notes: "官方注册流程页明确「免费30人使用」；官方域名为 woqu365.com"
-
-  - id: joyhr
-    name: 乐才（JoyHR）
-    website: https://joyhr.com
-    pricing_url: https://joyhr.com
-    region: "中国大陆"
-    category: 排班/劳动力管理（连锁服务业）
-    free_plan: "免费试用（申请试用/申请产品演示）"
-    free_limits: "未公示免费人数与时长，需提交申请由销售开通"
-    restrictions: "无公开价格表；排班、考勤、薪税、绩效等模块按需配置，价格咨询销售"
-    upgrade_trigger: "试用结束后，或需完整排班/算薪/绩效方案时付费"
-    min_paid_pkg: "未公示（需联系销售）"
-    verified: 2026-10-22
-    confidence: medium
-    official_sources:
-      - https://joyhr.com
-    third_party_sources:
-      - https://www.hrtechchina.com/tag/一体化劳动力及人力资源管理云平台
-    notes: "专注连锁餐饮/服务业排班与劳动力管理；现为免费试用+销售报价"
-
-  - id: tita
-    name: Tita（北京黑镜科技）
-    website: https://www.tita.com
-    pricing_url: https://www.tita.com
-    region: "中国大陆"
-    category: 绩效（OKR/绩效考核）
-    free_plan: "免费体验/免费试用"
-    free_limits: "免费试用时长未公示；无永久免费版公示"
-    restrictions: "OKR、绩效、360评估、项目管理等模块按版本/人数收费；官方价格需咨询"
-    upgrade_trigger: "试用结束后，或需新绩效一体化/OKRs-E/旗舰版等付费版本时升级"
-    min_paid_pkg: "第三方口径：新绩效一体化约 ¥600/人/年、OKRs-E专业版约 ¥800/人/年、旗舰版约 ¥1200/人/年（36氪企服点评，非官方）"
-    verified: 2026-10-22
-    confidence: medium
-    official_sources:
-      - https://www.tita.com
-    third_party_sources:
-      - https://www.36dianping.com/vs/bzts.html
-    notes: "官方定价未公开；App Store国际版显示10人起约 USD 999.99/年"
-
-  - id: zhisiyun
-    name: 智思云
-    website: https://www.zhisiyun.com
-    pricing_url: https://www.zhisiyun.com/portal_v2/index.php?m=list&a=index&classid=61
-    region: "中国大陆"
-    category: 一体化
-    free_plan: "无免费版（免费预约演示/申请体验）"
-    free_limits: "无免费人数公示；小微企业特供版为付费低门槛套餐"
-    restrictions: "主打中大型企业；小微企业特供版限量100家（官网显示剩余49家），套餐式按需选购"
-    upgrade_trigger: "需用核心人力云全模块（组织人事/绩效/考勤/薪酬等）或企业规模扩大时购买套餐"
-    min_paid_pkg: "小微企业特供版：官方称最低仅需传统HR系统30%成本，具体价格未公示（限量100套）"
-    verified: 2026-10-22
-    confidence: medium
-    official_sources:
-      - https://www.zhisiyun.com/portal_v2/index.php?m=list&a=index&classid=61
-    third_party_sources: []
-    notes: "小微企业特供版是付费低门槛套餐而非免费版"
-
-  - id: yirenshi
-    name: 壹人事（武汉市才智聚兴）
-    website: https://www.1renshi.com
-    pricing_url: https://www.1renshi.com/yuangonghuamingce.html
-    region: "中国大陆"
-    category: 一体化（在线HR工具+人事外包）
-    free_plan: "免费申请试用（试用套餐）"
-    free_limits: "员工花名册等模块支持免费申请试用；正式套餐按在职人数分档"
-    restrictions: "花名册 E01-E10 分档收费（20人档48元/年起）；电子工资条、社保托管、福利平台等另计"
-    upgrade_trigger: "超过套餐人数上限，或需电子工资条/社保托管/福利平台等模块时升级或按项购买"
-    min_paid_pkg: "员工花名册 E01 档：20人以内 48元/年（0.20元/人·月），2年86元"
-    verified: 2026-10-22
-    confidence: high
-    official_sources:
-      - https://www.1renshi.com/yuangonghuamingce.html
-    third_party_sources: []
-    notes: "在线HR工具价格极低，另有人事外包服务；本次最小付费包"
-
-  - id: gaiaworks
-    name: 盖雅工场
-    website: https://www.gaiaworkforce.com
-    pricing_url: https://www.gaiaworkforce.com
-    region: "中国大陆"
-    category: 考勤/排班（劳动力管理）
-    free_plan: "无免费版（仅免费预约演示）"
-    free_limits: "无免费人数公示；提供免费产品演示/预约"
-    restrictions: "面向中大型企业为主，价格按方案报价，需预约演示获取"
-    upgrade_trigger: "需智能排班/实时考勤/精益工时/薪酬激励等模块时采购（按方案报价）"
-    min_paid_pkg: "未公示（按项目/方案报价）"
-    verified: 2026-10-22
-    confidence: medium
-    official_sources:
-      - https://www.gaiaworkforce.com
-    third_party_sources: []
-    notes: "第三方称有「HR ONE免费版50人以下」，官方未公示，未采用"
-
-  - id: okrt
-    name: 源目标OKR
-    website: https://www.okrt.com
-    pricing_url: https://www.okrt.com/price/
-    region: "中国大陆"
-    category: 绩效（OKR）
-    free_plan: "免费试用15天"
-    free_limits: "企业版/旗舰版15天免费试用；无永久免费版"
-    restrictions: "企业版30人起售；旗舰版增加项目管理、KPI/360考核等"
-    upgrade_trigger: "试用结束后，或需项目管理/绩效考核等旗舰功能时升级"
-    min_paid_pkg: "企业版 ¥388/人/年（30人起售，含OKR组织地图、关联项目、KR进度等）"
-    verified: 2026-10-22
-    confidence: high
-    official_sources:
-      - https://www.okrt.com/price/
-    third_party_sources: []
-    notes: "价格公开透明；无免费版、15天免费试用"
+- id: 2haohr
+  name: 2号人事部（点米科技）
+  website: https://www.2haohr.com
+  pricing_url: https://www.2haohr.com/purchase
+  region: 中国大陆
+  category: 一体化
+  free_plan: 免费体验/限时免费使用（历史曾提供个人版免费，现主推付费企业版）
+  free_limits: 未公示免费人数上限；官网提供限时免费使用（试用）
+  restrictions: 完整功能（招聘/绩效/培训等）主要面向企业版付费客户；试用有时限
+  upgrade_trigger: 免费体验到期，或需用企业版全模块（招聘、绩效、培训、薪酬等）时升级
+  min_paid_pkg: 企业版 ¥128/人/年（一体化全模块+专业顾问指导）；集团版 ¥32400/年起
+  verified: 2026-10-22
+  confidence: high
+  official_sources:
+  - https://www.2haohr.com/purchase
+  third_party_sources:
+  - https://www.jiemian.com/article/2221800.html
+  notes: 面向中小微企业的一体化HR SaaS；官网以免费体验/限时免费使用为主，未公示永久免费版
+  deployment: SaaS 云（网页/App）
+  modules: 组织人事/考勤/薪酬/招聘/绩效/培训/电子签（一体化全模块）
+- id: xinrenxinshi
+  name: 薪人薪事（企家有道）
+  website: https://www.xinrenxinshi.com
+  pricing_url: https://www.xinrenxinshi.com/version
+  region: 中国大陆
+  category: 一体化（薪酬/考勤为特色）
+  free_plan: 免费注册试用
+  free_limits: 免费试用；官网未公示免费人数与时长，需预约演示开通
+  restrictions: 正式套餐按模块/人数报价，价格需销售咨询；高级模块（智能算薪、电子合同、招聘等）需付费开通
+  upgrade_trigger: 试用期结束后，或需开通集团管理/复杂算薪/招聘等付费模块时升级
+  min_paid_pkg: 官方未公示公开价格；金蝶精斗云渠道「薪人薪事小微企业版」¥3600/年起
+  verified: 2026-10-22
+  confidence: medium
+  official_sources:
+  - https://www.xinrenxinshi.com/version
+  third_party_sources:
+  - https://m.jdy.com/xrxs
+  notes: 官网无公开价格表，定价走销售咨询；渠道起价参考金蝶精斗云小微企业版 ¥3600/年起
+  deployment: SaaS 云（网页/App）
+  modules: 组织人事/考勤/薪酬(智能算薪)/招聘/电子合同
+- id: ihrshi
+  name: i人事（利唐）
+  website: https://www.irenshi.cn
+  pricing_url: https://www.irenshi.cn/article/33789.html
+  region: 中国大陆
+  category: 一体化
+  free_plan: 免费试用（官方称14天全功能免费）
+  free_limits: 试用期可导入100人以内人员数据；第三方称有50人以下免费版（未经官方公示）
+  restrictions: 试用结束后需购买标准版/专业版；招聘、薪酬核算、绩效等模块按版本区分
+  upgrade_trigger: 试用到期，或需招聘/薪酬/绩效等进阶模块、集团化管控时升级
+  min_paid_pkg: 官方文章口径：标准版年费3万元起、专业版8万元起（另有官方文章称基础版98元/人/年起，口径不一）
+  verified: 2026-10-22
+  confidence: medium
+  official_sources:
+  - https://www.irenshi.cn/article/33789.html
+  third_party_sources:
+  - https://www.iyunbiao.com/info/17319.html
+  notes: 官方主打中大型，提供14天全功能免费试用；免费人数上限未官方公示
+  deployment: SaaS 云（大客户可私有化）
+  modules: 组织人事/考勤/薪酬/招聘/绩效（按版本区分）
+- id: woqu
+  name: 喔趣科技
+  website: https://www.woqu365.com
+  pricing_url: https://kq.woqu365.com/login/index.htm
+  region: 中国大陆
+  category: 考勤/排班（劳动力管理）
+  free_plan: 免费基础版（免费30人使用）
+  free_limits: 免费30人使用：基础版人员信息管理、考勤管理、在线排班
+  restrictions: 免费版限30人；薪酬计算、绩效、人效分析等高级模块与更大规模需付费
+  upgrade_trigger: 超过30人，或需智能排班/薪酬核算/绩效等付费模块时升级
+  min_paid_pkg: 未公示公开价格，需联系销售报价
+  verified: 2026-10-22
+  confidence: high
+  official_sources:
+  - https://kq.woqu365.com/login/index.htm
+  third_party_sources: []
+  notes: 官方注册流程页明确「免费30人使用」；官方域名为 woqu365.com
+  deployment: SaaS 云（网页/App）
+  modules: 人员信息/考勤管理/在线排班（基础版）；薪酬计算/绩效/人效分析(付费)
+- id: joyhr
+  name: 乐才（JoyHR）
+  website: https://joyhr.com
+  pricing_url: https://joyhr.com
+  region: 中国大陆
+  category: 排班/劳动力管理（连锁服务业）
+  free_plan: 免费试用（申请试用/申请产品演示）
+  free_limits: 未公示免费人数与时长，需提交申请由销售开通
+  restrictions: 无公开价格表；排班、考勤、薪税、绩效等模块按需配置，价格咨询销售
+  upgrade_trigger: 试用结束后，或需完整排班/算薪/绩效方案时付费
+  min_paid_pkg: 未公示（需联系销售）
+  verified: 2026-10-22
+  confidence: medium
+  official_sources:
+  - https://joyhr.com
+  third_party_sources:
+  - https://www.hrtechchina.com/tag/一体化劳动力及人力资源管理云平台
+  notes: 专注连锁餐饮/服务业排班与劳动力管理；现为免费试用+销售报价
+  deployment: SaaS 云（网页/App）
+  modules: 排班/考勤/薪税/绩效（连锁服务业）
+- id: tita
+  name: Tita（北京黑镜科技）
+  website: https://www.tita.com
+  pricing_url: https://www.tita.com
+  region: 中国大陆
+  category: 绩效（OKR/绩效考核）
+  free_plan: 免费体验/免费试用
+  free_limits: 免费试用时长未公示；无永久免费版公示
+  restrictions: OKR、绩效、360评估、项目管理等模块按版本/人数收费；官方价格需咨询
+  upgrade_trigger: 试用结束后，或需新绩效一体化/OKRs-E/旗舰版等付费版本时升级
+  min_paid_pkg: 第三方口径：新绩效一体化约 ¥600/人/年、OKRs-E专业版约 ¥800/人/年、旗舰版约 ¥1200/人/年（36氪企服点评，非官方）
+  verified: 2026-10-22
+  confidence: medium
+  official_sources:
+  - https://www.tita.com
+  third_party_sources:
+  - https://www.36dianping.com/vs/bzts.html
+  notes: 官方定价未公开；App Store国际版显示10人起约 USD 999.99/年
+  deployment: SaaS 云（网页/App）
+  modules: OKR/绩效/360评估/项目管理
+- id: zhisiyun
+  name: 智思云
+  website: https://www.zhisiyun.com
+  pricing_url: https://www.zhisiyun.com/portal_v2/index.php?m=list&a=index&classid=61
+  region: 中国大陆
+  category: 一体化
+  free_plan: 无免费版（免费预约演示/申请体验）
+  free_limits: 无免费人数公示；小微企业特供版为付费低门槛套餐
+  restrictions: 主打中大型企业；小微企业特供版限量100家（官网显示剩余49家），套餐式按需选购
+  upgrade_trigger: 需用核心人力云全模块（组织人事/绩效/考勤/薪酬等）或企业规模扩大时购买套餐
+  min_paid_pkg: 小微企业特供版：官方称最低仅需传统HR系统30%成本，具体价格未公示（限量100套）
+  verified: 2026-10-22
+  confidence: medium
+  official_sources:
+  - https://www.zhisiyun.com/portal_v2/index.php?m=list&a=index&classid=61
+  third_party_sources: []
+  notes: 小微企业特供版是付费低门槛套餐而非免费版
+  deployment: SaaS 云 + 私有化部署（大客户）
+  modules: 组织人事/绩效/考勤/薪酬（核心人力云全模块）
+- id: yirenshi
+  name: 壹人事（武汉市才智聚兴）
+  website: https://www.1renshi.com
+  pricing_url: https://www.1renshi.com/yuangonghuamingce.html
+  region: 中国大陆
+  category: 一体化（在线HR工具+人事外包）
+  free_plan: 免费申请试用（试用套餐）
+  free_limits: 员工花名册等模块支持免费申请试用；正式套餐按在职人数分档
+  restrictions: 花名册 E01-E10 分档收费（20人档48元/年起）；电子工资条、社保托管、福利平台等另计
+  upgrade_trigger: 超过套餐人数上限，或需电子工资条/社保托管/福利平台等模块时升级或按项购买
+  min_paid_pkg: 员工花名册 E01 档：20人以内 48元/年（0.20元/人·月），2年86元
+  verified: 2026-10-22
+  confidence: high
+  official_sources:
+  - https://www.1renshi.com/yuangonghuamingce.html
+  third_party_sources: []
+  notes: 在线HR工具价格极低，另有人事外包服务；本次最小付费包
+  deployment: SaaS 云（网页/App）
+  modules: 员工花名册/电子工资条/社保托管/福利平台
+- id: gaiaworks
+  name: 盖雅工场
+  website: https://www.gaiaworkforce.com
+  pricing_url: https://www.gaiaworkforce.com
+  region: 中国大陆
+  category: 考勤/排班（劳动力管理）
+  free_plan: 无免费版（仅免费预约演示）
+  free_limits: 无免费人数公示；提供免费产品演示/预约
+  restrictions: 面向中大型企业为主，价格按方案报价，需预约演示获取
+  upgrade_trigger: 需智能排班/实时考勤/精益工时/薪酬激励等模块时采购（按方案报价）
+  min_paid_pkg: 未公示（按项目/方案报价）
+  verified: 2026-10-22
+  confidence: medium
+  official_sources:
+  - https://www.gaiaworkforce.com
+  third_party_sources: []
+  notes: 第三方称有「HR ONE免费版50人以下」，官方未公示，未采用
+  deployment: SaaS 云 + 私有化部署（大客户）
+  modules: 智能排班/实时考勤/精益工时/薪酬激励
+- id: okrt
+  name: 源目标OKR
+  website: https://www.okrt.com
+  pricing_url: https://www.okrt.com/price/
+  region: 中国大陆
+  category: 绩效（OKR）
+  free_plan: 免费试用15天
+  free_limits: 企业版/旗舰版15天免费试用；无永久免费版
+  restrictions: 企业版30人起售；旗舰版增加项目管理、KPI/360考核等
+  upgrade_trigger: 试用结束后，或需项目管理/绩效考核等旗舰功能时升级
+  min_paid_pkg: 企业版 ¥388/人/年（30人起售，含OKR组织地图、关联项目、KR进度等）
+  verified: 2026-10-22
+  confidence: high
+  official_sources:
+  - https://www.okrt.com/price/
+  third_party_sources: []
+  notes: 价格公开透明；无免费版、15天免费试用
+  deployment: SaaS 云（网页/App）
+  modules: OKR/关联项目/KR进度(企业版)；项目管理/KPI/360(旗舰版)
+- id: zoho-people
+  name: Zoho People
+  website: https://www.zoho.com/people/
+  pricing_url: https://www.zoho.com/people/zohopeople-pricing.html
+  region: 国际（多语言）
+  category: 一体化
+  free_plan: 免费版 Forever Free，上限 5 名用户
+  free_limits: 员工数据库、休假/请假管理、文档管理、员工自助
+  restrictions: 限 5 用户、1 个管理员；无考勤/排班/绩效/薪酬模块；试用结束自动降级 Free
+  upgrade_trigger: 超过 5 名用户，或需要考勤/排班/绩效/薪酬等模块时升级
+  min_paid_pkg: Essential HR 起价 US$1.25/用户/月（年付，最低 5 用户 ≈ US$6.25/月）
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.zoho.com/people/zohopeople-pricing.html
+  - https://www.zoho.com/people/pricing-comparison.html
+  third_party_sources:
+  - https://www.tinyteam.io/blog/zoho-people-pricing
+  - https://www.g2.com/products/zoho-people/pricing
+  notes: 官方定价页表头有『up to 53 users』疑为笔误，计划对比表与第三方一致为 5 人
+  deployment: SaaS 云（网页/App）
+  modules: Core HR(员工档案/请假/文档/员工自助)；考勤/排班/绩效/薪酬需付费档
+- id: greythr
+  name: greytHR
+  website: https://www.greythr.com/
+  pricing_url: https://www.greythr.com/pricing/
+  region: 印度（卢比计价）
+  category: 一体化
+  free_plan: 免费 Starter 计划（官方博客：面向 <50 员工，永久免费）
+  free_limits: 员工数据库、入职、薪资、请假、考勤（网页打卡+移动签到）、任务清单、员工自助
+  restrictions: 数据库 250MB 上限；仅保留 13 个月薪资历史；无地理围栏/人脸等高级考勤
+  upgrade_trigger: 需高级考勤、PMS/Expense/Recruit 模块或更大规模时升级
+  min_paid_pkg: Essential ₹2,495/月（含 50 名员工，超出 ₹45/员工/月）；Growth ₹4,495/月
+  verified: '2026-10-22'
+  confidence: medium
+  official_sources:
+  - https://www.greythr.com/pricing/
+  - https://www.greythr.com/blog/greythr-free-plan-the-best-of-hr-automation-is-now-free/
+  - https://www.greythr.com/free-hr-payroll-software/
+  third_party_sources:
+  - https://www.trustradius.com/products/greythr/pricing
+  - https://softwarefinder.com/hr/greythr
+  notes: 『免费100人』为第三方说法，官方博客为 <50 员工；以官方为准降 confidence
+  deployment: SaaS 云（网页/App）
+  modules: 员工库/入职/薪资/请假/考勤/任务清单/员工自助
+- id: orangehrm
+  name: OrangeHRM
+  website: https://orangehrm.com/
+  pricing_url: https://orangehrm.com/pricing
+  region: 国际（开源版不限区域）
+  category: 一体化（开源）
+  free_plan: Starter 开源版完全免费（GPL 开源）
+  free_limits: HR/员工/请假管理、报表、绩效、招聘、时间跟踪、移动端
+  restrictions: 无官方支持（仅社区）；需自托管部署；组织图/Roster/Onboarding 等仅 Advanced
+  upgrade_trigger: 需要实施服务/SLA/高级模块（Roster、Onboarding、API 等）时购买 Advanced
+  min_paid_pkg: Advanced 按员工/月计价、官方不公开需报价（第三方估计约 $6.30–8/员工/月）
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://orangehrm.com/pricing
+  - https://orangehrm.com/orangehrm-starter-open-source-software
+  third_party_sources:
+  - https://www.tinyteam.io/blog/free-hr-software
+  - https://softwarefinder.com/hr/orangehrm
+  notes: 开源免费版需技术能力自建；付费 Advanced 有 30 天免费试用
+  deployment: 开源可自托管（on-premise）
+  modules: 员工/请假/绩效/招聘/时间跟踪/报表(开源Starter)；组织图/Roster/Onboarding(Advanced)
+- id: connecteam
+  name: Connecteam
+  website: https://connecteam.com/
+  pricing_url: https://connecteam.com/pricing/
+  region: 国际（英文，US/EU 市场）
+  category: 考勤/一体化
+  free_plan: Small Business Plan 免费，上限 10 用户
+  free_limits: 运营/通讯/HR 三大 Hub 全部功能对 ≤10 用户永久免费
+  restrictions: 仅限 ≤10 用户；不含薪资集成；10 人以上仅可用免费 Limited 版（≤30 人、功能精简）
+  upgrade_trigger: 超过 10 名用户，或需薪资集成、多考勤钟/排班、SSO/API 时升级
+  min_paid_pkg: Basic $29/月（含前 30 用户固定价，年付）
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://connecteam.com/pricing/
+  third_party_sources:
+  - https://www.actitime.com/software-collections/connecteam-pricing
+  - https://dupple.com/pricing/connecteam
+  notes: 14 天全功能试用后，≤10 用户免费、11–30 用户可降级免费 Limited
+  deployment: SaaS 云（App/网页）
+  modules: 运营/通讯/HR 三大 Hub（考勤排班/任务/沟通/HR文档）
+- id: homebase
+  name: Homebase
+  website: https://www.joinhomebase.com/
+  pricing_url: https://www.joinhomebase.com/pricing
+  region: 美国
+  category: 考勤/一体化
+  free_plan: Basic 计划免费：1 个门店、≤10 名员工
+  free_limits: 基础排班、基础工时打卡、POS 集成、移动端 App
+  restrictions: 限 1 门店 10 员工；timesheets 仅保留 90 天；无高级排班/PTO/HR 合规
+  upgrade_trigger: 超 10 名员工、多门店，或需高级排班/PTO/部门权限时升级
+  min_paid_pkg: Essentials $30/门店/月（不限员工，年付）；Payroll 附加 $49/月 + $6/员工
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.joinhomebase.com/pricing
+  - https://www.joinhomebase.com/free
+  third_party_sources:
+  - https://www.workstream.us/blog/homebase-pricing
+  - https://softwarefinder.com/hr/homebase-payroll
+  notes: 另有 14 天 All-in-One 免费试用（无需信用卡）
+  deployment: SaaS 云（App/网页）
+  modules: 排班/工时打卡/POS/移动端；高级排班/PTO/HR合规(付费)
+- id: when-i-work
+  name: When I Work
+  website: https://wheniwork.com/
+  pricing_url: https://wheniwork.com/pricing
+  region: 国际（US 为主）
+  category: 考勤
+  free_plan: 无免费版，仅 14 天免费试用
+  free_limits: 试用含排班、工时、消息等全部功能，无需信用卡
+  restrictions: 无永久免费层；试用结束须订阅
+  upgrade_trigger: 14 天试用结束继续使用即须付费
+  min_paid_pkg: Essentials $2.50/用户/月（单门店）；多门店 $5/用户/月；Pro $5、Premium $8
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://wheniwork.com/pricing
+  third_party_sources:
+  - https://www.business.com/reviews/when-i-work/
+  notes: 所有套餐含排班+工时+消息，无隐藏加价
+  deployment: SaaS 云（网页/App）
+  modules: 排班/工时/消息
+- id: deputy
+  name: Deputy
+  website: https://www.deputy.com/
+  pricing_url: https://www.deputy.com/pricing
+  region: 国际（US/AU/UK）
+  category: 考勤/一体化
+  free_plan: 无免费版，仅免费试用（约 30–31 天）
+  free_limits: 试用覆盖所选套餐全部功能（Lite/Core/Pro）
+  restrictions: 无长期免费层；2025-09-01 起月付最低消费 $30/月
+  upgrade_trigger: 试用结束须订阅；达到最低月消费门槛
+  min_paid_pkg: Lite $5/用户/月（含最低消费 $30/月）；Core $6.50、Pro $9
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.deputy.com/pricing
+  third_party_sources:
+  - https://flowace.ai/blog/deputy-pricing/
+  - https://www.g2.com/products/deputy/pricing
+  notes: 最低月消费 $30 为官方 FAQ 确认（2025-09-01 起）
+  deployment: SaaS 云（App/网页）
+  modules: 排班/考勤/工时/薪酬(部分)；HR/Analytics+ 附加
+- id: deel
+  name: Deel
+  website: https://www.deel.com/
+  pricing_url: https://www.deel.com/pricing/
+  region: 国际（全球 EOR/HRIS）
+  category: 全球EOR/一体化
+  free_plan: Deel HR（HRIS）对 <200 名员工免费（2026 第三方复核；官方 FAQ 现列 Core $5/员工/月起）
+  free_limits: HRIS 基础层：员工档案、组织图、请假/PTO、入职、报表与审批
+  restrictions: 超 200 员工后 HRIS 转 $5/员工/月；绩效/学习/薪酬等高级层需付费
+  upgrade_trigger: 超 200 名员工，或需 HRIS 高级层、全球薪资/EOR/承包商合规服务
+  min_paid_pkg: Deel HR Core $5/员工/月（>200 人）；EOR $599/员工/月；US PEO $125/员工/月
+  verified: '2026-10-22'
+  confidence: medium
+  official_sources:
+  - https://www.deel.com/pricing/
+  - https://www.deel.com/solutions/hr/
+  third_party_sources:
+  - https://www.compono.com/articles/deel-hr-pricing-guide-2026
+  - https://www.pin.com/blog/deel-pricing/
+  notes: 官方 FAQ 称 Core 从 $5/员工/月起；多家 2026 测评确认 <200 人免费层，现状以官方销售为准
+  deployment: SaaS 云（网页/App）
+  modules: HRIS(员工档案/组织图/请假/PTO/入职/报表审批)；全球薪资/EOR/承包商(付费)
+- id: bamboohr
+  name: BambooHR
+  website: https://www.bamboohr.com/
+  pricing_url: https://www.bamboohr.com/pricing/
+  region: 国际（US 为主）
+  category: 一体化
+  free_plan: 无免费版，仅免费试用（第三方称 7 天）
+  free_limits: 试用含 Core 功能：员工档案、请假、自定义报表、基础招聘（5 职位）
+  restrictions: 无永久免费层；≤25 员工按固定月费（Core $250/月）；Payroll 为美国附加项
+  upgrade_trigger: 试用结束即付费；需绩效（Pro）或薪酬管理（Elite）时升级
+  min_paid_pkg: Core $10/员工/月（>25 员工）；≤25 员工 $250/月固定价；Pro $17、Elite $25
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.bamboohr.com/pricing/
+  third_party_sources:
+  - https://peoplemanagingpeople.com/tools/bamboohr-pricing/
+  - https://www.tinyteam.io/blog/bamboohr-pricing
+  notes: 官方 FAQ 载明 ≤25 员工固定月费与 25+ 按员工计价
+  deployment: SaaS 云（网页/App）
+  modules: Core HR(员工档案/请假/报表/基础招聘)；绩效(Pro)/薪酬(Elite)
+- id: gusto
+  name: Gusto
+  website: https://gusto.com/
+  pricing_url: https://gusto.com/product/pricing
+  region: 美国（US-only 薪资）
+  category: 薪酬
+  free_plan: 无免费版，也无标准免费试用（可免费注册自行体验）
+  free_limits: 无永久免费计划；仅免费账户注册与设置
+  restrictions: Simple 限单州薪资；401(k)/健康福利等附加项另计
+  upgrade_trigger: 开始实际发薪即须付费（Simple 起）
+  min_paid_pkg: Simple $49/月 + $6/员工/月；Contractor Only $35/月；Plus $80/月 + $12/员工
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://gusto.com/product/pricing
+  third_party_sources:
+  - https://rivermate.com/blog/gusto-pricing
+  - https://www.workstream.us/blog/gusto-pricing
+  notes: Simple 基础费 2026-03 由 $40 上调至 $49（第三方确认）；定价页 403，数字多源交叉
+  deployment: SaaS 云（美国薪资合规）
+  modules: 薪资/税务/福利/401(k)（美国合规）
+- id: rippling
+  name: Rippling
+  website: https://www.rippling.com/
+  pricing_url: https://www.rippling.com/pricing
+  region: 国际（US 为主）
+  category: 一体化
+  free_plan: 无免费版，也无自助免费试用（仅预约演示/获取报价）
+  free_limits: 无免费层；官方定价为定制报价模式
+  restrictions: 报价制（quote-based）；官方 FAQ 称平台从 $8/员工/月 + 月基础费起
+  upgrade_trigger: 使用即需购买（签约/报价）；无免费试用可走
+  min_paid_pkg: 官方 FAQ：$8/员工/月起 + 月基础费（第三方称基础费约 $35–40/月，需报价确认）
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.rippling.com/pricing
+  third_party_sources:
+  - https://www.pin.com/blog/rippling-pricing/
+  - https://tech.co/hr-software/rippling-review
+  notes: 无免费版/免费试用，多家 2026 测评一致确认
+  deployment: SaaS 云（一体化）
+  modules: HR/IT/薪资/合规 一体化（quote 制）
+- id: sage-hr
+  name: Sage HR
+  website: https://www.sage.com/en-us/sage-business-cloud/hr/
+  pricing_url: https://www.sage.com/en-us/sage-business-cloud/hr/pricing/
+  region: 国际（US/UK/CA）
+  category: 一体化
+  free_plan: 无免费版，仅 30 天免费试用（无需信用卡）
+  free_limits: 试用含 Core HR 及可选模块（绩效、Shift 等按模块加购）
+  restrictions: 无永久免费层；模块化定价，按员工/月计价
+  upgrade_trigger: 30 天试用结束订阅；需绩效/考勤等模块时加购
+  min_paid_pkg: 官方 FAQ：从 $5.50/员工/月（Core HR）起
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.sage.com/en-us/sage-business-cloud/hr/pricing/
+  - https://www.sage.com/en-us/sage-business-cloud/hr/
+  third_party_sources:
+  - https://peoplemanagingpeople.com/tools/sage-hr-pricing/
+  - https://www.thesmbguide.com/sage-hr-reviews
+  notes: 定价页 403，起价来自官方 FAQ 文本并经第三方交叉确认
+  deployment: SaaS 云（网页/App）
+  modules: Core HR(员工档案/请假)；绩效/Shift 模块加购
+- id: peoplehr
+  name: Access PeopleHR
+  website: https://www.peoplehr.com/en-gb/
+  pricing_url: https://www.peoplehr.com/en-gb/pricing/
+  region: 英国（英镑计价）
+  category: 一体化
+  free_plan: 无免费版，仅 14 天免费试用（无需信用卡）
+  free_limits: 试用含所选套餐（Starter/Core 等）全部功能
+  restrictions: 无永久免费层；按员工/月计费；Recruitment/LMS 为可选附加项
+  upgrade_trigger: 14 天试用结束须订阅
+  min_paid_pkg: Starter £4/员工/月；Core £6.25、Pro £9.25、Elite+ £11
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.peoplehr.com/en-gb/pricing/
+  third_party_sources:
+  - https://www.g2.com/products/access-peoplehr/pricing
+  - https://www.softwareadvice.com/hr/access-people-hr-software-profile/
+  notes: Starter 起价 £4（官方页面）
+  deployment: SaaS 云（网页/App）
+  modules: HR基础(档案/请假/文档/移动App)；Recruitment/LMS 附加
+- id: factorial
+  name: Factorial
+  website: https://factorialhr.com/
+  pricing_url: https://factorialhr.com/pricing
+  region: 国际（欧洲/拉美/美国）
+  category: 一体化
+  free_plan: 无免费版，仅 14 天免费试用
+  free_limits: 试用含全部功能（14 天免费体验全套 HR 软件）
+  restrictions: 无永久免费层；模块化按需定价（Time/Talent/Finance/IT）
+  upgrade_trigger: 试用结束订阅；需绩效/招聘/薪资/IT 模块时加购
+  min_paid_pkg: 官方页面：从 $8/用户/月起（含 Factorial Core 基础工具集）
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://factorialhr.com/pricing
+  - https://factorialhr.com/pricing-plans
+  third_party_sources:
+  - https://www.capterra.com/p/168685/Factorial-HR-Software/pricing/
+  - https://www.softwareadvice.com/hr/factorial-profile/
+  notes: 官方定价页标题即『Factorial starts at $8 per month, per user』
+  deployment: SaaS 云（网页/App）
+  modules: HR Core；Time/Talent/Finance/IT 模块化
+- id: personio
+  name: Personio
+  website: https://www.personio.com/
+  pricing_url: https://www.personio.com/pricing/
+  region: 欧洲（DACH/欧盟）
+  category: 一体化
+  free_plan: 无免费版；官方为 demo/报价
+  free_limits: 无免费层
+  restrictions: 报价制、不公开明细价格；一次性实施费视规模；Core 含一个法律实体
+  upgrade_trigger: 使用即购买；核心 HR 起步 €7.60/员工/月
+  min_paid_pkg: 官方定价页：Core 从 €7.60/员工/月（一次性设置费另计）
+  verified: '2026-10-22'
+  confidence: medium
+  official_sources:
+  - https://www.personio.com/pricing/
+  third_party_sources:
+  - https://saasrat.com/products/personio
+  - https://www.tinyteam.io/blog/personio-pricing
+  notes: 官方定价页显示 Starts from €7.60/month/employee
+  deployment: SaaS 云（网页/App）
+  modules: Core HR(单法律实体)/考勤/薪酬/招聘(按需)
+- id: keka
+  name: Keka
+  website: https://www.keka.com/
+  pricing_url: https://www.keka.com/pricing
+  region: 印度（卢比计价）
+  category: 一体化
+  free_plan: 无免费版，仅免费试用（时长未公示）
+  free_limits: 官方定价页未公布套餐价格与试用天数；试用覆盖所选套餐
+  restrictions: 价格不公开（需 demo/销售）；一次性实施费；Hiring 与 PSA 为独立套件
+  upgrade_trigger: 试用结束订阅；需 Hiring 套件或 PSA（项目/工时）时另行购买
+  min_paid_pkg: 官方未公布；第三方 2026 测评：Foundation ₹6,999/月（≤100 员工）、Strength ₹9,999/月
+  verified: '2026-10-22'
+  confidence: medium
+  official_sources:
+  - https://www.keka.com/pricing
+  third_party_sources:
+  - https://saasrat.com/products/keka
+  notes: 官方定价页无数字，最小付费包为第三方估计
+  deployment: SaaS 云（App/网页）
+  modules: HR 全模块；Hiring 与 PSA(项目/工时)独立套件
+- id: zimyo
+  name: Zimyo
+  website: https://www.zimyo.com/
+  pricing_url: https://www.zimyo.com/pricing/
+  region: 印度/中东（卢比计价）
+  category: 一体化
+  free_plan: 官方定价页未展示免费版；第三方称曾对小微企业提供免费计划/『12个月免费(100员工)』促销
+  free_limits: 免费层内容不明确（官方页面无免费版说明，需向销售确认）
+  restrictions: 官方定价页显示 ₹80/用户/月起、最低账单 ₹4,000/月（≤50 用户）
+  upgrade_trigger: 超过免费规模或需完整功能（绩效/招聘/薪酬）时付费
+  min_paid_pkg: 官方定价页：Basic 起（约 ₹80/用户/月、最低 ₹4,000/月）；第三方 G2 约 $3/用户/月起
+  verified: '2026-10-22'
+  confidence: low
+  official_sources:
+  - https://www.zimyo.com/pricing/
+  - https://www.zimyo.com/insights/hr-software-for-small-businesses/
+  third_party_sources:
+  - https://www.g2.com/products/zimyo/pricing
+  - https://www.indianhrm.com/zimyo-pricing
+  notes: 免费版证据薄弱（官方页面未确认），仅促销性活动与第三方提及，谨慎对待
+  deployment: SaaS 云（App/网页）
+  modules: HR 全模块（绩效/招聘/薪酬/考勤）
