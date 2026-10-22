@@ -36,7 +36,8 @@ def main() -> None:
     rep_dir = REPO_ROOT / "reports"
     rep_dir.mkdir(exist_ok=True)
     render.report(vendors, probe_map, str(rep_dir / "weekly.md"))
-    render.inject_readme(str(REPO_ROOT / "README.md"), vendors, probe_map)
+    render.inject_readme(str(REPO_ROOT / "README.md"), vendors, probe_map, lang="zh")
+    render.inject_readme(str(REPO_ROOT / "README_EN.md"), vendors, probe_map, lang="en")
 
     # 状态存档（供下轮 diff / 未来邮件）
     (REPO_ROOT / "data" / "probe-state.json").write_text(
