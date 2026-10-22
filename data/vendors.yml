@@ -11,4 +11,188 @@
 # official_sources / third_party_sources 官方与第三方证据 URL（每周探活）
 # ================================================================
 
-vendors: []
+vendors:
+  - id: 2haohr
+    name: 2号人事部（点米科技）
+    website: https://www.2haohr.com
+    pricing_url: https://www.2haohr.com/purchase
+    region: "中国大陆"
+    category: 一体化
+    free_plan: "免费体验/限时免费使用（历史曾提供个人版免费，现主推付费企业版）"
+    free_limits: "未公示免费人数上限；官网提供限时免费使用（试用）"
+    restrictions: "完整功能（招聘/绩效/培训等）主要面向企业版付费客户；试用有时限"
+    upgrade_trigger: "免费体验到期，或需用企业版全模块（招聘、绩效、培训、薪酬等）时升级"
+    min_paid_pkg: "企业版 ¥128/人/年（一体化全模块+专业顾问指导）；集团版 ¥32400/年起"
+    verified: 2026-10-22
+    confidence: high
+    official_sources:
+      - https://www.2haohr.com/purchase
+    third_party_sources:
+      - https://www.jiemian.com/article/2221800.html
+    notes: "面向中小微企业的一体化HR SaaS；官网以免费体验/限时免费使用为主，未公示永久免费版"
+
+  - id: xinrenxinshi
+    name: 薪人薪事（企家有道）
+    website: https://www.xinrenxinshi.com
+    pricing_url: https://www.xinrenxinshi.com/version
+    region: "中国大陆"
+    category: 一体化（薪酬/考勤为特色）
+    free_plan: "免费注册试用"
+    free_limits: "免费试用；官网未公示免费人数与时长，需预约演示开通"
+    restrictions: "正式套餐按模块/人数报价，价格需销售咨询；高级模块（智能算薪、电子合同、招聘等）需付费开通"
+    upgrade_trigger: "试用期结束后，或需开通集团管理/复杂算薪/招聘等付费模块时升级"
+    min_paid_pkg: "官方未公示公开价格；金蝶精斗云渠道「薪人薪事小微企业版」¥3600/年起"
+    verified: 2026-10-22
+    confidence: medium
+    official_sources:
+      - https://www.xinrenxinshi.com/version
+    third_party_sources:
+      - https://m.jdy.com/xrxs
+    notes: "官网无公开价格表，定价走销售咨询；渠道起价参考金蝶精斗云小微企业版 ¥3600/年起"
+
+  - id: ihrshi
+    name: i人事（利唐）
+    website: https://www.irenshi.cn
+    pricing_url: https://www.irenshi.cn/article/33789.html
+    region: "中国大陆"
+    category: 一体化
+    free_plan: "免费试用（官方称14天全功能免费）"
+    free_limits: "试用期可导入100人以内人员数据；第三方称有50人以下免费版（未经官方公示）"
+    restrictions: "试用结束后需购买标准版/专业版；招聘、薪酬核算、绩效等模块按版本区分"
+    upgrade_trigger: "试用到期，或需招聘/薪酬/绩效等进阶模块、集团化管控时升级"
+    min_paid_pkg: "官方文章口径：标准版年费3万元起、专业版8万元起（另有官方文章称基础版98元/人/年起，口径不一）"
+    verified: 2026-10-22
+    confidence: medium
+    official_sources:
+      - https://www.irenshi.cn/article/33789.html
+    third_party_sources:
+      - https://www.iyunbiao.com/info/17319.html
+    notes: "官方主打中大型，提供14天全功能免费试用；免费人数上限未官方公示"
+
+  - id: woqu
+    name: 喔趣科技
+    website: https://www.woqu365.com
+    pricing_url: https://kq.woqu365.com/login/index.htm
+    region: "中国大陆"
+    category: 考勤/排班（劳动力管理）
+    free_plan: "免费基础版（免费30人使用）"
+    free_limits: "免费30人使用：基础版人员信息管理、考勤管理、在线排班"
+    restrictions: "免费版限30人；薪酬计算、绩效、人效分析等高级模块与更大规模需付费"
+    upgrade_trigger: "超过30人，或需智能排班/薪酬核算/绩效等付费模块时升级"
+    min_paid_pkg: "未公示公开价格，需联系销售报价"
+    verified: 2026-10-22
+    confidence: high
+    official_sources:
+      - https://kq.woqu365.com/login/index.htm
+    third_party_sources: []
+    notes: "官方注册流程页明确「免费30人使用」；官方域名为 woqu365.com"
+
+  - id: joyhr
+    name: 乐才（JoyHR）
+    website: https://joyhr.com
+    pricing_url: https://joyhr.com
+    region: "中国大陆"
+    category: 排班/劳动力管理（连锁服务业）
+    free_plan: "免费试用（申请试用/申请产品演示）"
+    free_limits: "未公示免费人数与时长，需提交申请由销售开通"
+    restrictions: "无公开价格表；排班、考勤、薪税、绩效等模块按需配置，价格咨询销售"
+    upgrade_trigger: "试用结束后，或需完整排班/算薪/绩效方案时付费"
+    min_paid_pkg: "未公示（需联系销售）"
+    verified: 2026-10-22
+    confidence: medium
+    official_sources:
+      - https://joyhr.com
+    third_party_sources:
+      - https://www.hrtechchina.com/tag/一体化劳动力及人力资源管理云平台
+    notes: "专注连锁餐饮/服务业排班与劳动力管理；现为免费试用+销售报价"
+
+  - id: tita
+    name: Tita（北京黑镜科技）
+    website: https://www.tita.com
+    pricing_url: https://www.tita.com
+    region: "中国大陆"
+    category: 绩效（OKR/绩效考核）
+    free_plan: "免费体验/免费试用"
+    free_limits: "免费试用时长未公示；无永久免费版公示"
+    restrictions: "OKR、绩效、360评估、项目管理等模块按版本/人数收费；官方价格需咨询"
+    upgrade_trigger: "试用结束后，或需新绩效一体化/OKRs-E/旗舰版等付费版本时升级"
+    min_paid_pkg: "第三方口径：新绩效一体化约 ¥600/人/年、OKRs-E专业版约 ¥800/人/年、旗舰版约 ¥1200/人/年（36氪企服点评，非官方）"
+    verified: 2026-10-22
+    confidence: medium
+    official_sources:
+      - https://www.tita.com
+    third_party_sources:
+      - https://www.36dianping.com/vs/bzts.html
+    notes: "官方定价未公开；App Store国际版显示10人起约 USD 999.99/年"
+
+  - id: zhisiyun
+    name: 智思云
+    website: https://www.zhisiyun.com
+    pricing_url: https://www.zhisiyun.com/portal_v2/index.php?m=list&a=index&classid=61
+    region: "中国大陆"
+    category: 一体化
+    free_plan: "无免费版（免费预约演示/申请体验）"
+    free_limits: "无免费人数公示；小微企业特供版为付费低门槛套餐"
+    restrictions: "主打中大型企业；小微企业特供版限量100家（官网显示剩余49家），套餐式按需选购"
+    upgrade_trigger: "需用核心人力云全模块（组织人事/绩效/考勤/薪酬等）或企业规模扩大时购买套餐"
+    min_paid_pkg: "小微企业特供版：官方称最低仅需传统HR系统30%成本，具体价格未公示（限量100套）"
+    verified: 2026-10-22
+    confidence: medium
+    official_sources:
+      - https://www.zhisiyun.com/portal_v2/index.php?m=list&a=index&classid=61
+    third_party_sources: []
+    notes: "小微企业特供版是付费低门槛套餐而非免费版"
+
+  - id: yirenshi
+    name: 壹人事（武汉市才智聚兴）
+    website: https://www.1renshi.com
+    pricing_url: https://www.1renshi.com/yuangonghuamingce.html
+    region: "中国大陆"
+    category: 一体化（在线HR工具+人事外包）
+    free_plan: "免费申请试用（试用套餐）"
+    free_limits: "员工花名册等模块支持免费申请试用；正式套餐按在职人数分档"
+    restrictions: "花名册 E01-E10 分档收费（20人档48元/年起）；电子工资条、社保托管、福利平台等另计"
+    upgrade_trigger: "超过套餐人数上限，或需电子工资条/社保托管/福利平台等模块时升级或按项购买"
+    min_paid_pkg: "员工花名册 E01 档：20人以内 48元/年（0.20元/人·月），2年86元"
+    verified: 2026-10-22
+    confidence: high
+    official_sources:
+      - https://www.1renshi.com/yuangonghuamingce.html
+    third_party_sources: []
+    notes: "在线HR工具价格极低，另有人事外包服务；本次最小付费包"
+
+  - id: gaiaworks
+    name: 盖雅工场
+    website: https://www.gaiaworkforce.com
+    pricing_url: https://www.gaiaworkforce.com
+    region: "中国大陆"
+    category: 考勤/排班（劳动力管理）
+    free_plan: "无免费版（仅免费预约演示）"
+    free_limits: "无免费人数公示；提供免费产品演示/预约"
+    restrictions: "面向中大型企业为主，价格按方案报价，需预约演示获取"
+    upgrade_trigger: "需智能排班/实时考勤/精益工时/薪酬激励等模块时采购（按方案报价）"
+    min_paid_pkg: "未公示（按项目/方案报价）"
+    verified: 2026-10-22
+    confidence: medium
+    official_sources:
+      - https://www.gaiaworkforce.com
+    third_party_sources: []
+    notes: "第三方称有「HR ONE免费版50人以下」，官方未公示，未采用"
+
+  - id: okrt
+    name: 源目标OKR
+    website: https://www.okrt.com
+    pricing_url: https://www.okrt.com/price/
+    region: "中国大陆"
+    category: 绩效（OKR）
+    free_plan: "免费试用15天"
+    free_limits: "企业版/旗舰版15天免费试用；无永久免费版"
+    restrictions: "企业版30人起售；旗舰版增加项目管理、KPI/360考核等"
+    upgrade_trigger: "试用结束后，或需项目管理/绩效考核等旗舰功能时升级"
+    min_paid_pkg: "企业版 ¥388/人/年（30人起售，含OKR组织地图、关联项目、KR进度等）"
+    verified: 2026-10-22
+    confidence: high
+    official_sources:
+      - https://www.okrt.com/price/
+    third_party_sources: []
+    notes: "价格公开透明；无免费版、15天免费试用"

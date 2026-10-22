@@ -13,14 +13,14 @@ def table(vendors: list[dict], probe_map: dict) -> str:
         "|---|---|---|---|---|---|---|---|---|",
     ]
     for i, v in enumerate(vendors, 1):
-        name = f"[{_d(v['name'])}]({_d(v['website'])})"
+        conf = v.get("confidence") or "medium"
+        badge = {"high": "", "medium": " <sub>☑️</sub>", "low": " <sub>⚠️</sub>"}.get(conf, " <sub>☑️</sub>")
+        name = f"[{_d(v['name'])}]({_d(v['website'])}){badge}"
         free = v.get("free_plan") or "—"
         free_limits = v.get("free_limits") or "—"
         restrict = v.get("restrictions") or "—"
         trigger = v.get("upgrade_trigger") or "—"
         minpkg = v.get("min_paid_pkg") or "—"
-        conf = v.get("confidence") or "medium"
-        flag = {"high": "✅", "medium": "☑️", "low": "⚠️"}.get(conf, "☑️")
         # 官方验证：列出每个官方 URL 的状态
         off = []
         for u, st in (probe_map.get(v["id"], {}).get("official") or {}).items():
@@ -32,7 +32,7 @@ def table(vendors: list[dict], probe_map: dict) -> str:
         third_txt = "<br>".join(third) if third else "—"
         rows.append(
             f"| {i} | {name} | {free} | {free_limits} | {restrict} | {trigger} | {minpkg} "
-            f"| {flag} {off_txt} | {third_txt} |"
+            f"| {off_txt} | {third_txt} |"
         )
     return "\n".join(rows)
 
