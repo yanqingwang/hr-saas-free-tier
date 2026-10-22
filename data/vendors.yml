@@ -572,3 +572,342 @@ vendors:
   notes: 免费版证据薄弱（官方页面未确认），仅促销性活动与第三方提及，谨慎对待
   deployment: SaaS 云（App/网页）
   modules: HR 全模块（绩效/招聘/薪酬/考勤）
+- id: 7shifts
+  name: 7shifts
+  website: https://www.7shifts.com/
+  pricing_url: https://www.7shifts.com/pricing/
+  region: 美国
+  category: 排班/考勤（餐饮）
+  deployment: SaaS 云（网页/App）
+  modules: 排班、换班/代班、可用性与休假申请、单向公告、团队消息、移动端应用
+  free_plan: 免费版 Comp 计划：1 个门店、最多 15 名员工（另有 14 天全功能试用）
+  free_limits: 基础排班、单向公告、可用性与休假申请；免费版永久有效，无需信用卡
+  restrictions: 不含考勤打卡、工时成本、POS 集成、小费管理、自动排班、多门店
+  upgrade_trigger: 超过 15 人或需要考勤/工时成本/多门店功能时
+  min_paid_pkg: Essentials $44.99/月/门店（年付 $39.99），最多 30 人/门店
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.7shifts.com/pricing/
+  - https://www.7shifts.com/plans-v/
+  third_party_sources:
+  - https://www.aimadefor.com/blog/7shifts-pricing-2026/
+  notes: 按门店而非按人头计费；面向餐厅等小时工行业
+- id: sling
+  name: Sling（Sling by Toast）
+  website: https://getsling.com/
+  pricing_url: https://getsling.com/pricing/
+  region: 美国
+  category: 排班/考勤
+  deployment: SaaS 云（网页/App）
+  modules: 排班、换班/代班、休假申请、可用班次、新闻公告、私信
+  free_plan: 免费版最多 30 名用户（永久免费）
+  free_limits: 核心排班功能：排班、时间休假申请、班次互换/代班、新闻与公告、私信
+  restrictions: 不含移动端打卡、工时成本、加班追踪、PTO 管理、报表等
+  upgrade_trigger: 需要考勤/工时成本/加班/报表/PTO 管理等功能时
+  min_paid_pkg: Premium $2/用户/月（年付 $1.70）；Business $4/用户/月（年付 $3.40）
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://getsling.com/pricing/
+  third_party_sources:
+  - https://checkthat.ai/brands/sling/pricing
+  - https://connecteam.com/reviews/sling/
+  notes: 2026 年被 Toast 收购更名 Sling by Toast；官方页明确 free for up to 30 users
+- id: jibble
+  name: Jibble
+  website: https://www.jibble.io/
+  pricing_url: https://www.jibble.io/help/is-jibble-really-free
+  region: 美国（全球可用）
+  category: 考勤/工时
+  deployment: SaaS 云（网页/App/桌面/Kiosk）
+  modules: 自动工时表、GPS/面部识别打卡、考勤、休假与公共假日、项目/活动、报表导出、集成
+  free_plan: 免费版永久免费，人数不限
+  free_limits: 自动工时表、GPS 定位打卡、面部识别、2 个地理围栏、1 个工作排班、无限项目/客户/活动、报表导出、无限集成
+  restrictions: 不含 PTO 累计、群组管理、多级审批、实时位置追踪、无限地理围栏/排班
+  upgrade_trigger: 需要审批流、PTO 累计、更多地理围栏/排班、权限管理时
+  min_paid_pkg: Premium 约 $5.99/用户/月（年付约 $4.49）；官方已下架公开价目表
+  verified: '2026-10-22'
+  confidence: medium
+  official_sources:
+  - https://www.jibble.io/help/is-jibble-really-free
+  - https://www.jibble.io/
+  third_party_sources:
+  - https://www.timely.com/blog/jibble-pricing/
+  - https://www.ontheclock.com/blog/jibble-review
+  notes: 免费无人数上限是核心卖点；付费价以第三方 2026 核实为准
+- id: push-operations
+  name: Push Operations
+  website: https://www.pushoperations.com/
+  pricing_url: https://www.pushoperations.com/us/pushpricing
+  region: 美国（加拿大同源）
+  category: 一体化（薪酬+排班+考勤）
+  deployment: SaaS 云（网页/App）
+  modules: 薪酬（自动税费/1099/W-2）、排班、考勤（照片打卡防代打）、HR 入职/ATS、报表、POS 集成
+  free_plan: 无免费版（官方未公示免费试用）
+  free_limits: 无免费档内容
+  restrictions: 全部产品按员工数付费，最低按 5 名员工计费
+  upgrade_trigger: 任何功能使用均需付费订阅
+  min_paid_pkg: Starter 约 $6/员工/月（官方 FAQ：$30/月/5 名员工起）
+  verified: '2026-10-22'
+  confidence: medium
+  official_sources:
+  - https://www.pushoperations.com/us/pushpricing
+  third_party_sources:
+  - https://www.trustradius.com/products/push-operations/pricing
+  notes: TrustRadius 确认无免费版/试用；个别第三方称有试用但官方未公示
+- id: oyster-hr
+  name: Oyster HR
+  website: https://www.oysterhr.com/
+  pricing_url: https://www.oysterhr.com/pricing
+  region: 美国
+  category: 全球EOR
+  deployment: SaaS 云（网页）
+  modules: EOR 雇佣（120+ 国）、全球薪酬、承包商管理（合同/付款）、HR 工具与资源、薪资洞察
+  free_plan: 平台账号免费（未雇佣即不收费）；Global Contractors 方案免费 30 天
+  free_limits: 免费注册并浏览平台、使用全球 HR 工具与资源；承包商方案前 30 天免费
+  restrictions: 一旦雇佣承包商/EOR 员工/薪酬员工即按人头开始计费
+  upgrade_trigger: 需要正式雇佣员工或承包商时
+  min_paid_pkg: Global Contractors $29/承包商/月（30 天免费后）；EOR $699/员工/月
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.oysterhr.com/pricing
+  third_party_sources:
+  - https://fitsmallbusiness.com/oyster-review/
+  notes: 2024 年曾有的『10 人以下免费 Small Business』HRIS 档已不见于当前官方页面
+- id: ontheclock
+  name: OnTheClock
+  website: https://www.ontheclock.com/
+  pricing_url: https://www.ontheclock.com/pricing
+  region: 美国
+  category: 考勤
+  deployment: SaaS 云（网页/App/Kiosk）
+  modules: 考勤打卡、GPS/地理围栏/IP 限制、排班、PTO 管理、加班计算、薪酬集成
+  free_plan: 免费试用 30 天（官方未公示永久免费版）
+  free_limits: 30 天全功能试用，无需信用卡；试用后按 $4/员工/月 + $5 基础费/月计费
+  restrictions: 试用期后必须付费；100+ 员工转企业方案
+  upgrade_trigger: 30 天试用结束后
+  min_paid_pkg: $4/员工/月 + $5 基础费/月；薪酬加购 $6/员工/月 + $40 基础费/月
+  verified: '2026-10-22'
+  confidence: medium
+  official_sources:
+  - https://www.ontheclock.com/pricing
+  third_party_sources:
+  - https://www.shiftflow.app/blog/best-time-clock-software
+  - https://www.joinhomebase.com/blog/best-free-time-clock-app
+  notes: 个别第三方称有 1–2 员工免费档，但官方定价页仅公示 30 天试用
+- id: buddy-punch
+  name: Buddy Punch
+  website: https://buddypunch.com/
+  pricing_url: https://buddypunch.com/pricing/
+  region: 美国
+  category: 考勤
+  deployment: SaaS 云（网页/App/Kiosk）
+  modules: 考勤打卡、排班、PTO、GPS/地理围栏、照片打卡、薪酬集成
+  free_plan: 无永久免费版，14 天免费试用（无需信用卡）
+  free_limits: 14 天全功能试用
+  restrictions: 试用结束后须付费订阅
+  upgrade_trigger: 14 天试用结束后
+  min_paid_pkg: Starter $4.99/用户/月（年付）+ $19 基础费/月；Pro $6.99/用户/月（年付）
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://buddypunch.com/pricing/
+  third_party_sources:
+  - https://www.erpresearch.com/erp-add-ons/time-attendance/buddy-punch
+  - https://www.joinhomebase.com/blog/best-free-time-clock-app
+  notes: 5 名员工年付 Starter 约合 $44/月
+- id: hubstaff
+  name: Hubstaff
+  website: https://hubstaff.com/
+  pricing_url: https://hubstaff.com/pricing
+  region: 美国
+  category: 考勤/工时
+  deployment: SaaS 云（网页/桌面/App）
+  modules: 时间跟踪、活动/截图监控、GPS、考勤、工时表、项目/任务、自动付款与发票、集成
+  free_plan: 免费 Lite 版 1 人（限 1 名组织所有者）；另有 14 天全功能免费试用
+  free_limits: 1 用户的基础时间跟踪与基础活动跟踪
+  restrictions: 免费版仅 1 席；付费计划 2 席起售
+  upgrade_trigger: 超过 1 人或需要截图/报表/集成等完整功能时
+  min_paid_pkg: Starter $4.99/席/月（年付，2 席起）
+  verified: '2026-10-22'
+  confidence: medium
+  official_sources:
+  - https://hubstaff.com/pricing
+  - https://hubstaff.com/blog/saas-pricing-free-plan-mistake/
+  third_party_sources:
+  - https://thedigitalprojectmanager.com/tools/hubstaff-pricing/
+  - https://www.intelogos.com/blog/hubstaff-pricing-2026
+  notes: 官方博客承认曾砍掉免费版又重上 1 人 Lite 档
+- id: clockify
+  name: Clockify
+  website: https://clockify.me/
+  pricing_url: https://clockify.me/pricing
+  region: 美国（全球可用）
+  category: 考勤/工时
+  deployment: SaaS 云（网页/App/桌面）
+  modules: 时间跟踪、工时表、项目/任务、报表、日历、集成、预算
+  free_plan: 免费版最多 5 名活跃用户（2026 年 4 月起由无限用户收紧）
+  free_limits: 无限时间跟踪；报表导出限 31 天日期范围；kiosk 模式、计费费率等转付费
+  restrictions: 5 用户上限；kiosk、完整报表导出、计费费率需付费
+  upgrade_trigger: 超过 5 名用户或需要 kiosk/完整报表/计费功能时
+  min_paid_pkg: Basic $3.99/席/月（年付，月付 $4.99）
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://clockify.me/pricing
+  - https://clockify.me/help/administration/updates-to-clockify-free-plan
+  third_party_sources:
+  - https://www.ontheclock.com/blog/clockify-review
+  - https://flowace.ai/blog/clockify-pricing-free-tier-vs-enterprises/
+  notes: 2026-04 免费版从无限用户改为 5 人上限，重要变动
+- id: toggl-track
+  name: Toggl Track
+  website: https://toggl.com/
+  pricing_url: https://toggl.com/pricing
+  region: 美国（全球可用）
+  category: 考勤/工时
+  deployment: SaaS 云（网页/App/桌面/浏览器插件）
+  modules: 时间跟踪（手动/实时计时器）、任务/看板/时间线、日历集成、个人报表、Toggl AI
+  free_plan: 免费版最多 3 名用户（永久免费）
+  free_limits: 无限项目/客户端/标签、手动与实时计时、看板/任务规划、日历集成、个人报表
+  restrictions: 3 用户上限；计费费率、团队报表、PTO、里程碑等需付费
+  upgrade_trigger: 超过 3 人或需要计费费率/团队报表/审批/SSO 时
+  min_paid_pkg: Starter $9/用户/月（年付，月付 $12）；Premium $16/用户/月（年付）
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://toggl.com/pricing
+  third_party_sources:
+  - https://www.timecamp.com/blog/what-is-toggl-track/
+  - https://www.timely.com/blog/toggl-track-pricing/
+  notes: 官方 FAQ 明确免费最多 3 用户
+- id: time-doctor
+  name: Time Doctor
+  website: https://www.timedoctor.com/
+  pricing_url: https://www.timedoctor.com/pricing
+  region: 美国
+  category: 考勤/工时
+  deployment: SaaS 云（网页/桌面/App）
+  modules: 时间跟踪、屏幕截图/活动监控、考勤、工时表、报表、集成
+  free_plan: 无免费版，14 天免费试用
+  free_limits: 14 天全功能试用
+  restrictions: 试用后必须付费订阅
+  upgrade_trigger: 14 天试用结束后
+  min_paid_pkg: Basic $6.67/用户/月（年付，月付 $8）；Standard $11.67、Premium $16.70（年付）
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.timedoctor.com/pricing
+  - https://support.timedoctor.com/knowledge/time-doctor-pricing-plans-and-features
+  third_party_sources:
+  - https://www.timely.com/blog/time-doctor-pricing/
+  notes: Basic/Standard/Premium 三档按用户计费
+- id: square-payroll
+  name: Square Payroll
+  website: https://squareup.com/us/en/payroll
+  pricing_url: https://squareup.com/us/en/payroll/pricing
+  region: 美国
+  category: 薪酬
+  deployment: SaaS 云（网页/App，与 Square POS 集成）
+  modules: 薪酬计算、直接存款、自动税费申报、W-2/1099、加班、带薪休假
+  free_plan: 无月费免费档；承包商专用方案 $0 底费 + $6/已付款承包商/月
+  free_limits: 承包商专用：无基础月费，仅在实际支付承包商时按 $6/人/月计费
+  restrictions: 有 W-2 员工则需全服务方案（$35/月 + $6/人/月）
+  upgrade_trigger: 需要支付 W-2 员工薪酬时
+  min_paid_pkg: 承包商方案 $6/人/月（无底费）；全服务 $35/月 + $6/人/月
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://squareup.com/us/en/payroll/pricing
+  third_party_sources:
+  - https://gusto.com/resources/guides/switch-payroll-providers/square-pricing
+  - https://www.capterra.com/p/170266/Square-Payroll/pricing/
+  notes: 适合只付 1099 承包商的小团队，费用仅在发薪时发生
+- id: adp-run
+  name: ADP RUN Powered by ADP
+  website: https://www.adp.com/what-we-offer/products/run-powered-by-adp.aspx
+  pricing_url: https://www.adp.com/what-we-offer/payroll/payroll-for-1-49-employees/payroll-packages.aspx
+  region: 美国
+  category: 薪酬
+  deployment: SaaS 云（网页/App）
+  modules: 薪酬、税费申报、新员工申报、福利、HR 服务、合规
+  free_plan: 无免费版（需报价）；官方有『签约享最高 6 个月免费』促销（截至 2026-11-26）
+  free_limits: 无免费档内容；6 个月免费为签约促销而非免费试用
+  restrictions: 价格不公开，需联系销售报价；促销限时
+  upgrade_trigger: 任何使用均需付费订阅
+  min_paid_pkg: 官方宣称起价约 $39/月 + $5/员工（第三方估计 $79/月 + $4/员工，实际需报价）
+  verified: '2026-10-22'
+  confidence: medium
+  official_sources:
+  - https://www.adp.com/what-we-offer/payroll/payroll-for-1-49-employees.aspx
+  - https://www.adp.com/what-we-offer/products/run-powered-by-adp.aspx
+  third_party_sources:
+  - https://tech.co/hr-software/adp-pricing-guide
+  notes: 面向 1–49 人小企业；无公开价格表
+- id: paychex-flex
+  name: Paychex Flex
+  website: https://www.paychex.com/
+  pricing_url: https://www.paychex.com/payroll/compare-payroll-solutions
+  region: 美国
+  category: 薪酬
+  deployment: SaaS 云（网页/App）
+  modules: 薪酬处理、HR、福利、401(k)、税务、时间与考勤
+  free_plan: 无免费版（按需报价）
+  free_limits: 无免费档内容
+  restrictions: 价格以报价为准；无自助注册免费试用
+  upgrade_trigger: 任何使用均需付费订阅
+  min_paid_pkg: 官方 2026 起价约 $65/月 + $8/员工（实际需报价）
+  verified: '2026-10-22'
+  confidence: medium
+  official_sources:
+  - https://www.paychex.com/payroll/compare-payroll-solutions
+  third_party_sources:
+  - https://www.forbes.com/advisor/business/services/paychex-pricing/
+  - https://gusto.com/resources/guides/switch-payroll-providers/paychex-pricing
+  notes: 官方对比页 2026 标注 Plans starting at $65/mo + $8 per employee
+- id: remote
+  name: Remote（Remote.com）
+  website: https://remote.com/
+  pricing_url: https://remote.com/pricing
+  region: 美国（全球）
+  category: 全球EOR
+  deployment: SaaS 云（网页）
+  modules: 免费 HRIS（HR Core）、EOR（90+ 国）、全球薪酬、承包商管理、美国 PEO、合规引擎
+  free_plan: 免费 HRIS（HR Core，覆盖全部员工）
+  free_limits: 员工档案、休假、文档存储等基础 HRIS 功能免费；EOR/薪酬/承包商服务按人头收费
+  restrictions: 免费的是 HRIS 工具本身；雇佣/发薪/承包商管理需付费方案
+  upgrade_trigger: 需要在海外雇佣员工（EOR）、全球发薪或管理承包商时
+  min_paid_pkg: Global Payroll $29/员工/月；Contractor Management $29/承包商/月；PEO $99/员工/月；EOR $599/员工/月起
+  verified: '2026-10-22'
+  confidence: medium
+  official_sources:
+  - https://remote.com/pricing
+  - https://remote.com/global-hr/us-expansion
+  third_party_sources:
+  - https://peoplemanagingpeople.com/tools/remote-pricing/
+  - https://www.hireinsouth.com/post/remote-pricing
+  notes: 官方美国扩展页标注 Free HRIS for all employees；EOR 第三方口径月付 $699、年付 $599
+- id: zenefits
+  name: Zenefits（现并入 TriNet HR Plus）
+  website: https://www.trinet.com/
+  pricing_url: https://www.trinet.com/
+  region: 美国
+  category: 一体化
+  deployment: SaaS 云（网页）
+  modules: HR、薪酬、福利、合规（原 Zenefits 功能并入 TriNet HR Plus）
+  free_plan: 无免费版（独立产品已于 2025-01 停售并入 TriNet HR Plus；仅预约演示）
+  free_limits: 无免费档内容
+  restrictions: 独立自助注册通道已关闭；现仅经 TriNet 销售（ASO/PEO 路径）
+  upgrade_trigger: 不再作为独立产品购买
+  min_paid_pkg: TriNet 报价制（无公开价目）
+  verified: '2026-10-22'
+  confidence: high
+  official_sources:
+  - https://www.trinet.com/about-us/news-press/press-releases/trinet-s-hr-plus-offering-surpasses-40-000-users-and-expands-hr-support-capabilities-for-smbs
+  - https://www.trinet.com/
+  third_party_sources:
+  - https://www.business.com/reviews/zenefits-hr-software/
+  - https://xecutethevision.com/blog/f/zenefits-pricing-2026-what-happened-and-what-to-use-instead
+  notes: 2022 年被 TriNet 收购，2025-01 起独立 Zenefits HRIS 停售
