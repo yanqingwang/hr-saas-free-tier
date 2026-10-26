@@ -38,7 +38,7 @@ _每周一自动重建 · 数据定义于 [`data/vendors.yml`](data/vendors.yml)
 #### 🇮🇩 印尼
 | # | 公司 | 部署方式 | 模块说明 | 免费版 | 免费情况 | 限制条件 | 何时需升级 | 最小付费包 | 官方验证 | 第三方验证 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | [Mekari Talenta（印尼）](https://www.talenta.co) <sub>☑️</sub> | SaaS 云（网页/App） | 考勤(人脸/GPS)/薪酬 Payroll/HR 行政/招聘 ATS/绩效 Talent Development/Talenta AI | 无免费版，仅 14 天免费试用（无合同、无需信用卡） | 14天试用全功能（官方定价页）；无永久免费层 | 正式价格需联系销售/演示；Talenta 360 生态模块与 Add-on 另行计费 | 试用结束订阅；需绩效/招聘等 Talenta 360 模块时按 add-on 加购 | 未公示公开价格（联系销售） | ✅ [www.talenta.co](https://www.talenta.co/en/pricing-subscription)<br>✅ [www.talenta.co](https://www.talenta.co/blog/begini-cara-memanfaatkan-layanan-coba-gratis-software-hris/) | 🔒 [www.capterra.com](https://www.capterra.com/p/241697/Talenta) |
+| 1 | [Mekari Talenta（印尼）](https://www.talenta.co) <sub>☑️</sub> | SaaS 云（网页/App） | 考勤(人脸/GPS)/薪酬 Payroll/HR 行政/招聘 ATS/绩效 Talent Development/Talenta AI | 无免费版，仅 14 天免费试用（无合同、无需信用卡） | 14天试用全功能（官方定价页）；无永久免费层 | 正式价格需联系销售/演示；Talenta 360 生态模块与 Add-on 另行计费 | 试用结束订阅；需绩效/招聘等 Talenta 360 模块时按 add-on 加购 | 未公示公开价格（联系销售） | 🚫 [www.talenta.co](https://www.talenta.co/en/pricing-subscription)<br>🚫 [www.talenta.co](https://www.talenta.co/blog/begini-cara-memanfaatkan-layanan-coba-gratis-software-hris/) | 🔒 [www.capterra.com](https://www.capterra.com/p/241697/Talenta) |
 
 #### 🇹🇭 泰国
 | # | 公司 | 部署方式 | 模块说明 | 免费版 | 免费情况 | 限制条件 | 何时需升级 | 最小付费包 | 官方验证 | 第三方验证 |
