@@ -1,6 +1,6 @@
 # Mid/Small HR SaaS Free-Tier Weekly · 中小人力资源 SaaS 免费版周报
 
-**Scan date: 2026-11-02 (UTC) · weekly auto-update every Monday**
+**Scan date: 2026-11-09 (UTC) · weekly auto-update every Monday**
 
 > Facts verified weekly against official pricing/free pages; "no free tier" listed as-is. Detailed cells in Chinese (source facts); Free-tier badge is an English summary.
 
